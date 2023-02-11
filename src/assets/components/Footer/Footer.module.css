@@ -1,0 +1,25 @@
+.footer {
+    width: 100%;
+    background-color: var(--Color-dark);
+    color: #fff;
+    padding: var(--Margin-M) 0;
+}
+
+.footerContainer {
+    align-items: flex-start;
+    gap: var(--Margin-M);
+}
+
+.listSocialMedia {
+    display: flex;
+    gap: var(--Margin-S);
+}
+
+.list {
+    align-items: flex-start;
+    gap: var(--Margin-S);
+}
+
+.listItem {
+    color: #fff;
+}

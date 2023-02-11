@@ -3,6 +3,7 @@ import {  } from 'react-dom'
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
 import { Home } from './assets/pages/Home/Home'
+import { Footer } from './assets/components/Footer/Footer';
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
         <Route path='*' element={<Navigate replace to='/' />} />
 
       </Routes>
+
+      <Footer />
 
     </Router>
   );
