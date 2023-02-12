@@ -1,4 +1,4 @@
-import { AiFillInstagram, AiFillGithub, AiFillYoutube, AiFillLinkedin, AiFillCopy } from 'react-icons/ai'
+import { AiOutlineInstagram, AiFillGithub, AiFillYoutube, AiFillLinkedin } from 'react-icons/ai'
 import { Link } from 'react-router-dom';
 import { Bar } from '../Bar/Bar';
 
@@ -15,14 +15,14 @@ export function Footer() {
             <section className={`${styles.footerContainer} flex container`}>
 
                 <ul className={styles.listSocialMedia}>
-                    <li><a href="https://www.linkedin.com/in/fernando-panduro/" title="Link a Linkedin de Fernando Pandur" target="_blank" rel="noopener noreferrer"><AiFillGithub size={27} color='white'/></a></li>
-                    <li><a href="https://www.youtube.com/@fernandopanduro/" title="Link a Youtube de Fernando Panduro" target="_blank" rel="noopener noreferrer"><AiFillYoutube size={27} color='white'/></a></li>
-                    <li><a href="https://github.com/fernandopanduro" title="Link a Github de Fernando Panduro" target="_blank" rel="noopener noreferrer"><AiFillLinkedin size={27} color='white'/></a></li>
-                    <li><a href="http://instagram.com/fernandpha" title="Link a Instagram de Fernando Panduro" target="_blank" rel="noopener noreferrer"><AiFillInstagram size={27} color='white'/></a></li>
+                    <li><a href="https://github.com/fernandopanduro" title="Github de Fernando Panduro" target="_blank" rel="noopener noreferrer"><AiFillGithub size={27} color='white'/></a></li>
+                    <li><a href="https://www.youtube.com/@fernandopanduro/" title="Youtube de Fernando Panduro" target="_blank" rel="noopener noreferrer"><AiFillYoutube size={27} color='white'/></a></li>
+                    <li><a href="https://www.linkedin.com/in/fernando-panduro/" title="Linkedin de Fernando Panduro" target="_blank" rel="noopener noreferrer"><AiFillLinkedin size={27} color='white'/></a></li>
+                    <li><a href="http://instagram.com/fernandpha" title="Instagram de Fernando Panduro" target="_blank" rel="noopener noreferrer"><AiOutlineInstagram size={27} color='white'/></a></li>
                 </ul>
 
                 <div>
-                    <h4>Menu Principal</h4>
+                    <h4 className={`${styles.subtitle}`}>Menu Principal</h4>
                     <Bar />
                     <ul className={`${styles.list} flex`}>    
                         <li><Link className={`${styles.listItem}`} to='/'>Inicio</Link></li>
@@ -33,7 +33,7 @@ export function Footer() {
                 </div>
                 
                 <div>
-                    <h4>Menu Secundario</h4>
+                    <h4 className={`${styles.subtitle}`}>Menu Secundario</h4>
                     <Bar /> 
                     <ul className={`${styles.list} flex`}>    
                         <li><Link className={`${styles.listItem}`} to='/privacidad'>Aviso de privacidad</Link></li>
@@ -48,7 +48,7 @@ export function Footer() {
                 </div>
 
                 <div>
-                    <span>&copy; {year} Fernando Panduro</span>
+                    <span className='text-secondary'>&copy; {year} Fernando Panduro</span>
                     <Bar /> 
                 </div>
 

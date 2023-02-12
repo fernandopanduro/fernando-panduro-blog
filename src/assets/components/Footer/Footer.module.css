@@ -5,6 +5,10 @@
     padding: var(--Margin-M) 0;
 }
 
+.subtitle {
+    font-weight: 600;
+}
+
 .footerContainer {
     align-items: flex-start;
     gap: var(--Margin-M);
