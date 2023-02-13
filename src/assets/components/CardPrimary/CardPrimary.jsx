@@ -3,7 +3,7 @@ import React from 'react';
 import styles  from './CardPrimary.module.css';
 import { Bar } from '../Bar/Bar';
 
-import img from '../../pictures/img/img.jpg'
+import img from '../../pictures/img/img.jpg';
 
 function CardPrimary() {
   return (
