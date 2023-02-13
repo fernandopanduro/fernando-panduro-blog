@@ -1,0 +1,25 @@
+.cardPrimary {
+    margin: 0 0 var(--Margin-M) 0;
+}
+
+.img {
+    width: 100%;
+    margin: 0 0 1rem 0;
+}
+
+.imgProfile {
+    width: 2.1875rem;
+    height: 2.1875rem;
+    object-fit: cover;
+}
+
+.details {
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.detailsDescription {
+    margin: 0 0 0 var(--Margin-S);
+    align-items: flex-start;
+    font-size: .75rem;
+}
