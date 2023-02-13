@@ -1,0 +1,13 @@
+.containerPortfolio {
+    margin-bottom: var(--Margin-M);
+}
+
+.title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    letter-spacing: .25rem;
+}
+
+.btn {
+    color: white;
+}
