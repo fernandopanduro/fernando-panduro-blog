@@ -4,10 +4,13 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 
 import { Home } from './assets/pages/Home/Home'
 import { Footer } from './assets/components/Footer/Footer';
+import Header from './assets/components/Header/Header';
 
 function App() {
   return (
     <Router>
+
+      <Header />
 
       <Routes>
 
