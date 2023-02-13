@@ -1,5 +1,6 @@
 .cardSecondary {
     flex-direction: row;
+    margin: 0 0 var(--Margin-M) 0;
 }
 
 .picture {

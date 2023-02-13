@@ -3,6 +3,7 @@
     background-color: var(--Color-dark);
     color: var(--Color-ligth);
     height: 9.375rem;
+    margin-bottom: var(--Margin-M);
 }
 
 .banner {

@@ -2,3 +2,8 @@
     margin-top: 4.375rem;
     width: 100%;
 }
+
+.blog {
+    margin-top: var(--Margin-M);
+    background-color: red;
+}
