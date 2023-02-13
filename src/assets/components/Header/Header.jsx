@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <div className={`${styles.headerContainer} flex`}>
         <header className={`${styles.header} flex container`}>
-          <Link to='/'><h1 className={`${styles.title} h2`}>Fernando Panduro</h1></Link>
+          <Link to='/'><h1 className={`${styles.title} h3`}>Fernando Panduro</h1></Link>
             {/* <button onClick={() => setIsOpen(!isOpen)} className={`${styles.barsMenu} flex`}>
                 <div className={`${styles.barMenu1} ${isOpen && styles.activebarMenu1}`}></div>
                 <div className={`${styles.barMenu2} ${isOpen && styles.activebarMenu2}`}></div>

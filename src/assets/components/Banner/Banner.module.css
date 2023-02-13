@@ -1,0 +1,22 @@
+.bannerContainer {
+    width: 100%;
+    background-color: var(--Color-dark);
+    color: var(--Color-ligth);
+    height: 9.375rem;
+}
+
+.banner {
+    text-align: center;
+    height: 100%;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 2rem;
+
+}
+
+.subtitle {
+    font-weight: 300;
+    font-size: 1rem;
+}
