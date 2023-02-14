@@ -5,18 +5,19 @@ import { Bar } from '../Bar/Bar';
 
 import img from '../../pictures/img/img.jpg';
 
-function CardPrimary() {
+function CardPrimary({posted, read, description, title}) {
   return (
     <div className={`${styles.cardPrimary}`}>
+      
 
       <picture>
         <img className={`${styles.img} rounded-1`} src={img} alt="img" />
       </picture>
 
 
-      <h4>Visualizacion Negativa</h4>
+      <h4>{title}</h4>
 
-      <p className={`text-secondary`}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos accusamus officiis odit sapiente nulla sint illo dignissimos repudiandae aspernatur tempore id consectetur a, voluptatum omnis adipisci accusantium illum perspiciatis nesciunt.</p>
+      <p className={`text-secondary`}>{description}</p>
 
 
       <div className={`${styles.details} flex`}>
@@ -27,7 +28,7 @@ function CardPrimary() {
 
         <div className={`${styles.detailsDescription} flex`}>
           <span className='text-uppercase'>Fernando Panduro</span>
-          <span className={`text-uppercase text-secondary`}>6 AGO. 2022 - 4 min Lectura</span>
+          <span className={`text-uppercase text-secondary`}>{posted} - {read} Lectura</span>
         </div>
 
       </div>

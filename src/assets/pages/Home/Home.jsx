@@ -7,8 +7,8 @@ export function Home() {
     return (
         <div className={styles.home}>
             <Banner />
-            <CardsSection title='Blog' link='/blog'/>
-            <CardsSection title='Youtube' link='/youtube'/>
+            <CardsSection heading='Blog' link='/blogs'/>
+            <CardsSection heading='Youtube' link='/youtube'/>
             <Portfolio link='/portfolio'/>
         </div>
     )
