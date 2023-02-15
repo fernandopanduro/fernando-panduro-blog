@@ -13,7 +13,7 @@ import { Blog } from '../blog';
 
 function CardsSectionYT({heading, link}) {
 
-  const key       = 'AIzaSyAXNO85FZ0akeWfZ5Qq-uD6Gkm_pD2Rp0w';
+  /* const key       = 'AIzaSyAXNO85FZ0akeWfZ5Qq-uD6Gkm_pD2Rp0w';
   const idChannel = 'UC1100w5ZoAIw38flYh_nOYg';
   const url       = `https://www.googleapis.com/youtube/v3/search?key=${key}&channelId=${idChannel}&part=snippet,id&order=date&maxResults=5`
   const [todos, setTodos] = useState();
@@ -24,7 +24,7 @@ function CardsSectionYT({heading, link}) {
     .then((data) => {
       console.log(data);
     })
-  }, [])
+  }, []) */
 
   const {title, description, read, posted, links} = Blog[0];
 

@@ -1,0 +1,15 @@
+.conoceme {
+    margin-top: calc(4.375rem + var(--Margin-M));
+    gap: var(--Margin-S);
+    padding-bottom: var(--Margin-M);
+    max-width: 60.5rem;
+}
+
+.title {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.paragrath {
+    text-align: justify;
+}

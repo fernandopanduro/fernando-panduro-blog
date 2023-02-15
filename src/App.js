@@ -11,6 +11,7 @@ import RealidadVirtual from './assets/pages/Blogs/RealidadVirtual';
 import Privacidad from './assets/pages/Terminos/Privacidad';
 import Reembolso from './assets/pages/Terminos/Reembolso';
 import Servicio from './assets/pages/Terminos/Servicio';
+import Conoceme from './assets/pages/Conoceme/Conoceme';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path='/privacidad' element={<Privacidad />} />
         <Route path='/reembolso' element={<Reembolso />} />
         <Route path='/servicio' element={<Servicio />} />
+        <Route path='/conoceme' element={<Conoceme />} />
         
         <Route path='*' element={<Navigate replace to='/' />} />
 

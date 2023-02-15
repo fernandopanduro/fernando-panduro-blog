@@ -38,7 +38,7 @@ export function Footer() {
                     <ul className={`${styles.list} flex`}>    
                         <li><Link className={`${styles.listItem}`} to='/privacidad'>Aviso de privacidad</Link></li>
                         <li><Link className={`${styles.listItem}`} to='/servicio'>Terminos de servicio</Link></li>
-                        <li><Link className={`${styles.listItem}`} to='/reembolso'>Política de devoluciones y reembolsos:</Link></li>
+                        <li><Link className={`${styles.listItem}`} to='/reembolso'>Política de reembolsos</Link></li>
                     </ul>
                 </div>
 
