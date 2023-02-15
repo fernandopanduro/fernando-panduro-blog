@@ -1,0 +1,10 @@
+.privacidad {
+    margin-top: calc(4.375rem + var(--Margin-M));
+    max-width: 60.5rem;
+    text-align: justify;
+    padding-bottom: var(--Margin-M);
+    gap: var(--Margin-S);
+    justify-content: center;
+    align-items: flex-start;
+    
+}

@@ -13,7 +13,7 @@ function CardSecondary({title, posted, read}) {
       </picture>
       <div className={`${styles.details} flex`}>
         <h5 className={`${styles.title} text-uppercase`}>{title}</h5>
-        <span className={`${styles.subtitle} text-uppercase text-secondary`}>{posted} - {read} Lectura</span>
+        <span className={`${styles.subtitle} text-uppercase text-secondary`}>{posted} - {read}</span>
       </div>
     </div>
   )

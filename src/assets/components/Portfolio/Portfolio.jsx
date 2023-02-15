@@ -10,7 +10,7 @@ function Portfolio({link}) {
     <div className={`${styles.containerPortfolio}`}>
         <div className={`${styles.portfolio} flex    container`}>
             <h3 className={`${styles.title} text-center text-uppercase`}>Portafolio</h3>
-            <CardPrimary />
+            <CardPrimary title='Stania Clothing' />
             <CardPrimary />
             <CardPrimary />
             <button type="button" className={`btn btn-dark`}><Link to={link} className={`${styles.btn}`}>Ver Mas</Link></button>

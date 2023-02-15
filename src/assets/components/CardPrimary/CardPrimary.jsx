@@ -28,7 +28,7 @@ function CardPrimary({posted, read, description, title}) {
 
         <div className={`${styles.detailsDescription} flex`}>
           <span className='text-uppercase'>Fernando Panduro</span>
-          <span className={`text-uppercase text-secondary`}>{posted} - {read} Lectura</span>
+          <span className={`text-uppercase text-secondary`}>{posted} - {read}</span>
         </div>
 
       </div>

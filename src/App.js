@@ -8,6 +8,9 @@ import Header from './assets/components/Header/Header';
 import Blogs from './assets/pages/Blogs/Blogs';
 import Chatgpt from './assets/pages/Blogs/Chatgpt';
 import RealidadVirtual from './assets/pages/Blogs/RealidadVirtual';
+import Privacidad from './assets/pages/Terminos/Privacidad';
+import Reembolso from './assets/pages/Terminos/Reembolso';
+import Servicio from './assets/pages/Terminos/Servicio';
 
 function App() {
   return (
@@ -21,6 +24,9 @@ function App() {
         <Route path='/blogs' element={<Blogs />} />
         <Route path='/blogs/chatgpt' element={<Chatgpt />} />
         <Route path='/blogs/realidadvirtual' element={<RealidadVirtual />} />
+        <Route path='/privacidad' element={<Privacidad />} />
+        <Route path='/reembolso' element={<Reembolso />} />
+        <Route path='/servicio' element={<Servicio />} />
         
         <Route path='*' element={<Navigate replace to='/' />} />
 
