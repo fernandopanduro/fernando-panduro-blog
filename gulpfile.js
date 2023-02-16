@@ -26,7 +26,7 @@ function versionWebp(done) {
     };
 
     
-    src('src/assets/pictures/img/*.{png,jpg}')  // Ubicacion para encontar los archivos
+    src('src/assets/pictures/img/*.{png,jpg,jpeg}')  // Ubicacion para encontar los archivos
         .pipe(webp(opciones))                   // Convertir a Webp
         .pipe( dest('src/assets/pictures/img')) // Asignar donde se guardan los archivos
 
@@ -41,7 +41,7 @@ function versionAvif(done) {
     };
 
     
-    src('src/assets/pictures/img/*.{png,jpg}')  // Ubicacion para encontar los archivos
+    src('src/assets/pictures/img/*.{png,jpg,jpeg}')  // Ubicacion para encontar los archivos
         .pipe(avif(opciones))                   // Convertir a Webp
         .pipe( dest('src/assets/pictures/img')) // Asignar donde se guardan los archivos
 

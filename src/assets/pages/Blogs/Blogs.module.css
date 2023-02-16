@@ -2,11 +2,15 @@
     margin-top: calc(4.375rem + var(--Margin-M));
     gap: var(--Margin-S);
     padding-bottom: var(--Margin-M);
+    text-align: justify;
+    max-width: 45rem;
 }
 
 .img {
     width: 100%;
+    height: auto;
     margin-bottom: var(--Margin-S);
+    object-fit: cover;
 }
 
 .img:first-of-type {
