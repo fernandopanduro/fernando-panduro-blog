@@ -46,8 +46,12 @@ a {
   color: black;
 }
 
+a:hover {
+  color: inherit;
+}
+
 .container {
-  max-width: 1200rem;
+  max-width: 67.5rem;
   width: 100%;
 }
 

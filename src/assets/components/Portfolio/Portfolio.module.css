@@ -2,6 +2,20 @@
     margin-bottom: var(--Margin-M); 
 }
 
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem,  20rem));
+    gap: var(--Margin-M);
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 696px) {
+    .portfolio {
+        grid-template-columns: 100%;
+    }
+}
+
 .title {
     font-size: 1.75rem;
     font-weight: 700;

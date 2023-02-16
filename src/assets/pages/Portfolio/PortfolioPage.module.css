@@ -1,4 +1,4 @@
-.portfolioPage {
+.containerPortfolioPage {
     margin-top: calc(4.375rem + var(--Margin-M));
     padding-bottom: var(--Margin-M);
 }
@@ -8,4 +8,18 @@
     font-weight: 700;
     letter-spacing: .25rem;
     text-align: center;
+}
+
+.portfolioPage {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 30rem);
+    gap: var(--Margin-M);
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 696px) {
+    .portfolioPage {
+        grid-template-columns: 100%;
+    }
 }
