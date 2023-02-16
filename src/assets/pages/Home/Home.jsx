@@ -11,7 +11,7 @@ export function Home() {
             <Banner />
             <CardsSection heading='Blog' link='/blogs'/>
             <Portfolio link='/portfolio'/>
-            <CardsSectionYT heading='Youtube' link='/' />
+            <CardsSectionYT heading='Youtube' />
         </div>
     )
 }
