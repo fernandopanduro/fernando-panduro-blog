@@ -35,20 +35,22 @@ import starlinkWebp  from '../../pictures/img/starlink.webp';
 import bateriaJpg  from '../../pictures/img/bateria.jpg';
 import bateriaAvif  from '../../pictures/img/bateria.avif';
 import bateriaWebp  from '../../pictures/img/bateria.webp';
+import { Link } from 'react-router-dom';
 
 
 
 function PortfolioPage() {
   return (
     <div className={`${styles.portfolioPage} container`}>
-        <CardPortfolio link='https://vendettamx.netlify.app/' title='Vendetta' imgJpg={vendettaJpg} imgWebp={vendettaWebp} imgAvif={vendettaAvif} />
-        <CardPortfolio link='https://vehblogs.netlify.app/' title='VenBlog' imgJpg={venblogJpg} imgWebp={venblogWebp} imgAvif={venblogAvif} />
-        <CardPortfolio link='https://stania.netlify.app/' title='Stania' imgJpg={staniaJpg} imgWebp={staniaWebp} imgAvif={staniaAvif} />
-        <CardPortfolio link='https://llantera.netlify.app/' title='Llantera Garcia' imgJpg={llanteraJpg} imgWebp={llanteraWebp} imgAvif={llanteraAvif} />
-        <CardPortfolio link='https://eorum.netlify.app/' title='Eorum' imgJpg={eorumJpg} imgWebp={eorumWebp} imgAvif={eorumAvif} />
-        <CardPortfolio link='https://starlink-premium.netlify.app/' title='Starlink' imgJpg={starlinkJpg} imgWebp={starlinkWebp} imgAvif={starlinkAvif} />
-        <CardPortfolio link='https://batteryfernando.netlify.app/' title='Bateria' imgJpg={bateriaJpg} imgWebp={bateriaWebp} imgAvif={bateriaAvif} />
-        <CardPortfolio link='https://calculadora-glassmorphism.netlify.app/' title='Calculadora' imgJpg={calculadoraJpg} imgWebp={calculadoraWebp} imgAvif={calculadoraAvif} />
+        <h2 className={`${styles.title}`}>Portafolio</h2>
+        <CardPortfolio link='https://vendettamx.netlify.app/' type='Tienda de ropa para mujeres' title='Vendetta' imgJpg={vendettaJpg} imgWebp={vendettaWebp} imgAvif={vendettaAvif} />
+        <CardPortfolio link='https://vehblogs.netlify.app/' type='Blog informativo' title='VenBlog' imgJpg={venblogJpg} imgWebp={venblogWebp} imgAvif={venblogAvif} />
+        <CardPortfolio link='https://stania.netlify.app/' type='Marca de ropa' title='Stania'  imgJpg={staniaJpg} imgWebp={staniaWebp} imgAvif={staniaAvif} />
+        <CardPortfolio link='https://eorum.netlify.app/' type='Ecommerce de ropa japonessa' title='Eorum' imgJpg={eorumJpg} imgWebp={eorumWebp} imgAvif={eorumAvif} />
+        <CardPortfolio link='https://llantera.netlify.app/' type='Tienda de llantas' title='Llantera Garcia' imgJpg={llanteraJpg} imgWebp={llanteraWebp} imgAvif={llanteraAvif} />
+        <CardPortfolio link='https://starlink-premium.netlify.app/' type='Satelites de Elon Musk' title='Starlink' imgJpg={starlinkJpg} imgWebp={starlinkWebp} imgAvif={starlinkAvif} />
+        <CardPortfolio link='https://batteryfernando.netlify.app/' type='Porcentaje de bateria' title='Bateria' imgJpg={bateriaJpg} imgWebp={bateriaWebp} imgAvif={bateriaAvif} />
+        <CardPortfolio link='https://calculadora-glassmorphism.netlify.app/' type='Calculadora glassmorphism' title='Calculadora' imgJpg={calculadoraJpg} imgWebp={calculadoraWebp} imgAvif={calculadoraAvif} />
     </div>
   )
 }

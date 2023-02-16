@@ -23,9 +23,9 @@ function Portfolio({link}) {
         <div className={`${styles.portfolio} flex container`}>
             <h3 className={`${styles.title} text-center text-uppercase`}>Portafolio</h3>
 
-            <CardPortfolio link='https://vendettamx.netlify.app/' title='Vendetta' imgJpg={vendettaJpg} imgWebp={vendettaWebp} imgAvif={vendettaAvif} />
-            <CardPortfolio link='https://vehblogs.netlify.app/' title='VenBlog' imgJpg={venblogJpg} imgWebp={venblogWebp} imgAvif={venblogAvif} />
-            <CardPortfolio link='https://stania.netlify.app/' title='Stania' imgJpg={staniaJpg} imgWebp={staniaWebp} imgAvif={staniaAvif} />
+            <CardPortfolio link='https://vendettamx.netlify.app/' title='Vendetta' type='Tienda de ropa para mujeres' imgJpg={vendettaJpg} imgWebp={vendettaWebp} imgAvif={vendettaAvif} />
+            <CardPortfolio link='https://vehblogs.netlify.app/' title='VenBlog' type='Blog informativo' imgJpg={venblogJpg} imgWebp={venblogWebp} imgAvif={venblogAvif} />
+            <CardPortfolio link='https://stania.netlify.app/' title='Stania' type='Marca de ropa' imgJpg={staniaJpg} imgWebp={staniaWebp} imgAvif={staniaAvif} />
 
             <button type="button" className={`btn btn-dark`}><Link to={link} className={`${styles.btn}`}>Ver Mas</Link></button>
         </div>
