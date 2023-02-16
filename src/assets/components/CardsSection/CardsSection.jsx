@@ -9,12 +9,12 @@ import { Blog } from '../blog';
 
 function CardsSection({heading, link}) {
 
-  const {title, description, read, posted, links} = Blog[0];
+  const {title, description, read, posted, links, imgAvif, imgJpg, imgWebp } = Blog[0];
 
   return (
     <div className={`${styles.cardsSection} flex container`}>
       <h3 className={`${styles.title} text-uppercase`}>{heading}</h3>
-      <Link to={links}><CardPrimary title={title} description={description} read={read} posted={posted} /></Link>
+      <Link to={links}><CardPrimary  imgAvif={imgAvif} imgJpg={imgJpg} imgWebp={imgWebp}  title={title} description={description} read={read} posted={posted} /></Link>
       
       {
         Blog.map((blog, i) => (

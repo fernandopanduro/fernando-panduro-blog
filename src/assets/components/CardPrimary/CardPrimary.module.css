@@ -1,9 +1,11 @@
 .cardPrimary {
     margin: 0 0 var(--Margin-M) 0;
+    text-align: justify;
 }
 
 .img {
     width: 100%;
+    height: auto;
     margin: 0 0 1rem 0;
 }
 
