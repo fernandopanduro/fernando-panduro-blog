@@ -10,8 +10,8 @@ export function Home() {
         <div className={styles.home}>
             <Banner />
             <CardsSection heading='Blog' link='/blogs'/>
-            <CardsSectionYT heading='Youtube' link='/' />
             <Portfolio link='/portfolio'/>
+            <CardsSectionYT heading='Youtube' link='/' />
         </div>
     )
 }

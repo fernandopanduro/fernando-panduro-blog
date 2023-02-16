@@ -19,7 +19,7 @@ function CardsSection({heading, link}) {
       {
         Blog.map((blog, i) => (
         <Link to={blog.links}> 
-          <CardSecondary key={i} title={blog.title} read={blog.read} posted={blog.posted}/> 
+          <CardSecondary key={i} imgJpg={blog.imgJpg} imgAvif={blog.imgAvif} imgWebp={blog.imgWebp} title={blog.title} read={blog.read} posted={blog.posted}/> 
         </Link>
         ))
       }

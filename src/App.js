@@ -12,6 +12,7 @@ import Privacidad from './assets/pages/Terminos/Privacidad';
 import Reembolso from './assets/pages/Terminos/Reembolso';
 import Servicio from './assets/pages/Terminos/Servicio';
 import Conoceme from './assets/pages/Conoceme/Conoceme';
+import PortfolioPage from './assets/pages/Portfolio/PortfolioPage';
 
 function App() {
   return (
@@ -19,20 +20,23 @@ function App() {
 
       <Header />
 
-      <Routes>
+      <main>
+        <Routes>
 
-        <Route path="/" element={<Home />} />
-        <Route path='/blogs' element={<Blogs />} />
-        <Route path='/blogs/chatgpt' element={<Chatgpt />} />
-        <Route path='/blogs/realidadvirtual' element={<RealidadVirtual />} />
-        <Route path='/privacidad' element={<Privacidad />} />
-        <Route path='/reembolso' element={<Reembolso />} />
-        <Route path='/servicio' element={<Servicio />} />
-        <Route path='/conoceme' element={<Conoceme />} />
-        
-        <Route path='*' element={<Navigate replace to='/' />} />
+          <Route path="/" element={<Home />} />
+          <Route path='/blogs' element={<Blogs />} />
+          <Route path='/blogs/chatgpt' element={<Chatgpt />} />
+          <Route path='/blogs/realidadvirtual' element={<RealidadVirtual />} />
+          <Route path='/privacidad' element={<Privacidad />} />
+          <Route path='/reembolso' element={<Reembolso />} />
+          <Route path='/servicio' element={<Servicio />} />
+          <Route path='/conoceme' element={<Conoceme />} />
+          <Route path='/portfolio' element={<PortfolioPage />} />
+          
+          <Route path='*' element={<Navigate replace to='/' />} />
 
-      </Routes>
+        </Routes>
+      </main>
 
       <Footer />
 
