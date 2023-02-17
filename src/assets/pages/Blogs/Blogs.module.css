@@ -6,6 +6,10 @@
     max-width: 45rem;
 }
 
+.picture {
+    width: 100%;
+}
+
 .img {
     width: 100%;
     height: auto;
