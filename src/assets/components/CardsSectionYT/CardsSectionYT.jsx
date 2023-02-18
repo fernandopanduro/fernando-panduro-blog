@@ -28,18 +28,15 @@ function CardsSectionYT({heading, link}) {
     .then((res) => res.json())
     .then((data) => {
       setVideos(data.items);
-      console.log(videos[0]?.snippet.thumbnails.medium.url);
       setTitle(videos[0]?.snippet.title);
       setDescription(videos[0]?.snippet.description);
       setLinks(videos[0]?.id.videoId);
       setImgVideo(videos[0]?.snippet.thumbnails.medium.url);
       setPosted(videos[0]?.snippet.publishTime);
     })
-  }, [videos])
+  }, [])
+
   
-
-
-
 
   return (
     <div className={`${styles.cardsSection} flex container`}>

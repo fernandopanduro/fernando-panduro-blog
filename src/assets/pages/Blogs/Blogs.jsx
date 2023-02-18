@@ -15,7 +15,7 @@ function Blogs() {
       {
         Blog.map(blog => (
         <Link to={blog.links}> 
-          <CardPrimary title={blog.title} description={blog.description} read={blog.read} posted={blog.posted}/> 
+          <CardPrimary imgJpg={blog.imgJpg} imgWebp={blog.imgWebp} imgAvif={blog.imgAvif} title={blog.title} description={blog.description} read={blog.read} posted={blog.posted}/> 
         </Link>
         ))
       }

@@ -30,7 +30,7 @@ function App() {
           <Route path='/privacidad' element={<Privacidad />} />
           <Route path='/reembolso' element={<Reembolso />} />
           <Route path='/servicio' element={<Servicio />} />
-          <Route path='/conoceme' element={<Conoceme />} />
+          <Route path='/fernando-panduro' element={<Conoceme />} />
           <Route path='/portfolio' element={<PortfolioPage />} />
           
           <Route path='*' element={<Navigate replace to='/' />} />

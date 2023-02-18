@@ -1,9 +1,38 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import styles from './Conoceme.module.css';
 
 function Conoceme() {
   return (
     <div className={`${styles.containerConoceme} flex`}>
+        <Helmet>
+          <title>Quien es Fernando Panduro</title>
+          <meta property="og:type" content="website" />
+          <meta property="og:title" content="Quién es Fernando Panduro" />
+          <meta property="og:description" content="Fernando Panduro, nacido el 3 de junio en Culiacán, Sinaloa, es un autodidacta apasionado de la tecnología y los proyectos sociales." />
+          <meta property="og:url" content="https://ferpanduro.com/fernando-panduro/" />
+          <meta property="og:image" content="https://github.com/fernandopanduro/fernando-panduro-blog/blob/f9e60decd88c08c44bf732242c32b1e66e76d1c4/src/assets/pictures/img/realidad-virtual-4.jpg" />
+          <meta name="description" content="Fernando Panduro, nacido el 3 de junio en Culiacán, Sinaloa, es un autodidacta apasionado de la tecnología y los proyectos sociales." />
+
+          <meta property="article:published_time" content="2023-02-15T06:29:07.000Z" />
+          <meta property="article:modified_time" content="2023-02-15T21:17:20.000Z" />
+          <meta property="article:publisher" content="http://instagram.com/fernandpha" />
+          <meta property="article:author" content="http://instagram.com/fernandpha" />
+
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="Quién es Fernando Panduro" />
+          <meta name="twitter:description" content="Fernando Panduro, nacido el 3 de junio en Culiacán, Sinaloa, es un autodidacta apasionado de la tecnología y los proyectos sociales." />
+          <meta name="twitter:url" content="https://ferpanduro.com/fernando-panduro/" />
+          <meta name="twitter:image" content="https://github.com/fernandopanduro/fernando-panduro-blog/blob/f9e60decd88c08c44bf732242c32b1e66e76d1c4/src/assets/pictures/img/realidad-virtual-4.jpg" />
+          <meta name="twitter:label1" content="Written by" />
+          <meta name="twitter:data1" content="Fernando Panduro" />
+          <meta name="twitter:site" content="@fernanpha" />
+          <meta name="twitter:creator" content="@fernanpha" />
+
+          <meta property="og:image:width" content="2000" />
+          <meta property="og:image:height" content="1125" />
+
+        </Helmet>
         <div className={`${styles.conoceme} container`}>
             <h2 className={`${styles.title}`}>Quien es Fernando Panduro?</h2>
             <p className={`${styles.paragrath}`}>Fernando Panduro, nacido el 3 de junio en Culiacán, Sinaloa, es un autodidacta apasionado de la tecnología y los proyectos sociales.</p>

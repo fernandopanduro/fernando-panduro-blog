@@ -28,7 +28,7 @@ export function Footer() {
                         <li><Link className={`${styles.listItem}`} to='/'>Inicio</Link></li>
                         <li><Link className={`${styles.listItem}`} to='/blogs'>Blogs</Link></li>
                         <li><Link className={`${styles.listItem}`} to='/tienda'>Tienda</Link></li>
-                        <li><Link className={`${styles.listItem}`} to='/conoceme'>Conoceme</Link></li>
+                        <li><Link className={`${styles.listItem}`} to='/fernando-panduro'>Conoceme</Link></li>
                     </ul>
                 </div>
                 
