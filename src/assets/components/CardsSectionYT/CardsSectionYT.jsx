@@ -52,7 +52,7 @@ function CardsSectionYT({heading, link}) {
       {
         videos?.map((video, index) => (
         <a className={styles.link} key={index} title='youtube' target='_blank' href={`https://www.youtube.com/watch?v=${video.id.videoId}`}> 
-          <CardSecondary imgJpg={video.snippet.thumbnails.default.url} title={video.snippet.title} read='Reciente' posted={(video.snippet.publishTime).slice(0, 10)}/> 
+          <CardSecondary imgJpg={video.snippet.thumbnails.medium.url} title={video.snippet.title} read='Reciente' posted={(video.snippet.publishTime).slice(0, 10)}/> 
         </a>
         ))
       }
