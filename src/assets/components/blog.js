@@ -5,9 +5,9 @@ export const Blog = [
         posted: '18 FEB 2022',
         read: '5 MIN LECTURA',
         links: '/blogs/el-secreto-de-la-felicidad',
-        imgJpg: '.jpg',
-        imgAvif: '.avif',
-        imgWebp: '.webp',
+        imgJpg: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/aae5c05924cc76cd96dcb62754017f00eca23f51/src/assets/pictures/img/felicidad1.jpg',
+        imgAvif: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/aae5c05924cc76cd96dcb62754017f00eca23f51/src/assets/pictures/img/felicidad1.avif',
+        imgWebp: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/aae5c05924cc76cd96dcb62754017f00eca23f51/src/assets/pictures/img/felicidad1.webp',
     },
     {
         title: 'La respuesta a tus preguntas: ChatGPT',
