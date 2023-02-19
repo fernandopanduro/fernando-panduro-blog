@@ -14,7 +14,7 @@ function imageMin(done) {
 
     src('src/assets/pictures/img/*{png,jpg}')
         .pipe(cache(imagemin(opciones)))        // Convertir a Webp
-        pipe(dest('src/assets/pictures/img'))   // Asignar donde se guardan los archivos
+        .pipe(dest('src/assets/pictures/img'))   // Asignar donde se guardan los archivos
 
     done()
 }
