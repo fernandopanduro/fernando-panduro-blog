@@ -17,31 +17,37 @@ function CardsSectionYT({heading, link}) {
   const idChannel = 'UC1100w5ZoAIw38flYh_nOYg';
   const url       = `https://www.googleapis.com/youtube/v3/search?key=${key}&channelId=${idChannel}&part=snippet,id&order=date&maxResults=5`
   const [videos, setVideos] = useState();
-  const [title, setTitle] = useState('Titulo')
-  const [description, setDescription] = useState('description')
-  const [posted, setPosted] = useState('posted')
-  const [links, setLinks] = useState('Links')
-  const [imgVideo, setImgVideo] = useState('Img')
+  const [title, setTitle] = useState()
+  const [description, setDescription] = useState()
+  const [posted, setPosted] = useState('Publicado')
+  const [links, setLinks] = useState()
+  const [imgVideo, setImgVideo] = useState()
 
   useEffect(() => {
     fetch(url)
     .then((res) => res.json())
     .then((data) => {
+      console.log(1)
       setVideos(data.items);
       setTitle(videos[0]?.snippet.title);
       setDescription(videos[0]?.snippet.description);
       setLinks(videos[0]?.id.videoId);
       setImgVideo(videos[0]?.snippet.thumbnails.medium.url);
       setPosted(videos[0]?.snippet.publishTime);
+      console.log(videos)
     })
   }, [])
+  
 
   
 
   return (
     <div className={`${styles.cardsSection} flex container`}>
       <h3 className={`${styles.title} text-uppercase`}>{heading}</h3>
-      <a title='youtube' target='_blank' href={`https://www.youtube.com/watch?v=${links}`}><CardPrimary imgJpg={imgVideo} title={title} description={description} read='Reciente' posted={posted.slice(0, 10)} /></a>
+
+      {/* {
+        <a title='youtube' target='_blank' href={`https://www.youtube.com/watch?v=${links}`}><CardPrimary imgJpg={imgVideo} title={title} description={description} read='Reciente' posted={posted.slice(0, 10)} /></a>
+      } */}
       
       {
         videos?.map((video, index) => (

@@ -13,6 +13,7 @@ import Reembolso from './assets/pages/Terminos/Reembolso';
 import Servicio from './assets/pages/Terminos/Servicio';
 import Conoceme from './assets/pages/Conoceme/Conoceme';
 import PortfolioPage from './assets/pages/Portfolio/PortfolioPage';
+import ComoSerFeliz from './assets/pages/Blogs/ComoSerFeliz';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path='/blogs' element={<Blogs />} />
           <Route path='/blogs/chatgpt' element={<Chatgpt />} />
           <Route path='/blogs/realidadvirtual' element={<RealidadVirtual />} />
+          <Route path='/blogs/el-secreto-de-la-felicidad' element={<ComoSerFeliz />} />
           <Route path='/privacidad' element={<Privacidad />} />
           <Route path='/reembolso' element={<Reembolso />} />
           <Route path='/servicio' element={<Servicio />} />
