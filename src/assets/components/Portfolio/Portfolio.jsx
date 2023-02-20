@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Fade } from 'react-reveal';
 import CardPortfolio from '../CardPorfolio/CardPortfolio';
 
 import styles from './Portfolio.module.css';
@@ -23,9 +24,11 @@ function Portfolio({link}) {
         <h3 className={`${styles.title} text-center text-uppercase`}>Portafolio</h3>
         <div className={`${styles.portfolio} container`}>
 
-            <CardPortfolio link='https://vendettamx.netlify.app/' title='Vendetta' type='Tienda de ropa para mujeres' imgJpg={vendettaJpg} imgWebp={vendettaWebp} imgAvif={vendettaAvif} />
-            <CardPortfolio link='https://vehblogs.netlify.app/' title='VenBlog' type='Blog informativo' imgJpg={venblogJpg} imgWebp={venblogWebp} imgAvif={venblogAvif} />
-            <CardPortfolio link='https://stania.netlify.app/' title='Stania' type='Marca de ropa' imgJpg={staniaJpg} imgWebp={staniaWebp} imgAvif={staniaAvif} />
+            <Fade bottom>
+              <CardPortfolio link='https://vendettamx.netlify.app/' title='Vendetta' type='Tienda de ropa para mujeres' imgJpg={vendettaJpg} imgWebp={vendettaWebp} imgAvif={vendettaAvif} />
+              <CardPortfolio link='https://vehblogs.netlify.app/' title='VenBlog' type='Blog informativo' imgJpg={venblogJpg} imgWebp={venblogWebp} imgAvif={venblogAvif} />
+              <CardPortfolio link='https://stania.netlify.app/' title='Stania' type='Marca de ropa' imgJpg={staniaJpg} imgWebp={staniaWebp} imgAvif={staniaAvif} />
+            </Fade>
 
         </div>
         <button type="button" className={`btn btn-dark`}><Link to={link} className={`${styles.btn}`}>Ver Mas</Link></button>
