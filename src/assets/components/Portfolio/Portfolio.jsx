@@ -26,7 +26,7 @@ function Portfolio({link}) {
 
             <Fade bottom>
               <CardPortfolio link='https://vendettamx.netlify.app/' title='Vendetta' type='Tienda de ropa para mujeres' imgJpg={vendettaJpg} imgWebp={vendettaWebp} imgAvif={vendettaAvif} />
-              <CardPortfolio link='https://vehblogs.netlify.app/' title='VenBlog' type='Blog informativo' imgJpg={venblogJpg} imgWebp={venblogWebp} imgAvif={venblogAvif} />
+              <CardPortfolio link='https://eorum.netlify.app/' type='Ecommerce de ropa japonessa' title='Eorum' imgJpg={eorumJpg} imgWebp={eorumWebp} imgAvif={eorumAvif} />
               <CardPortfolio link='https://stania.netlify.app/' title='Stania' type='Marca de ropa' imgJpg={staniaJpg} imgWebp={staniaWebp} imgAvif={staniaAvif} />
             </Fade>
 

@@ -23,7 +23,7 @@ function Privacidad() {
             </ol>
             <p>Más información</p>
             <p>Esperamos que esta información sea clara. Y como mencionado anteriormente: cuando no tenga seguridad de que necesita las cookies, es más seguro permitirlas, en caso de que esté interactuando con uno de los recursos que utiliza en nuestro sitio web.</p>
-            <p>Esta política es efectiva a partir de 14 February 2023 23:40.</p>
+            <p>Esta política es efectiva a partir de 14 February 2023 11:40.</p>
         </div>
     </div>
   )
