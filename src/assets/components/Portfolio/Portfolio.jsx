@@ -9,9 +9,9 @@ import staniaJpg  from '../../pictures/img/Stania.jpg';
 import staniaAvif  from '../../pictures/img/Stania.avif';
 import staniaWebp  from '../../pictures/img/Stania.webp';
 
-import venblogJpg  from '../../pictures/img/venblog.jpg';
-import venblogAvif  from '../../pictures/img/venblog.avif';
-import venblogWebp  from '../../pictures/img/venblog.webp';
+import eorumJpg  from '../../pictures/img/eorum.jpg';
+import eorumAvif  from '../../pictures/img/eorum.avif';
+import eorumWebp  from '../../pictures/img/eorum.webp';
 
 import vendettaJpg  from '../../pictures/img/Vendetta.jpg';
 import vendettaAvif  from '../../pictures/img/Vendetta.avif';

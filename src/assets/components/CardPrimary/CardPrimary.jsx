@@ -10,14 +10,17 @@ import perfilWebp from '../../pictures/img/perfil.webp';
 
 function CardPrimary({posted, read, description, title, imgAvif, imgWebp, imgJpg}) {
   return (
-    <div className={`${styles.cardPrimary}`}>
+    <div className={`${styles.cardPrimary} rounded`}>
       <Fade bottom>
 
-        <picture>
-          <source srcSet={imgAvif} type='image/avif'/>
-          <source srcSet={imgWebp} type='image/webp'/>
-          <img className={`${styles.img} rounded-1`} loading='lazy' width='200' height='300' src={imgJpg} alt={title} />
-        </picture>
+        <div className={styles.imagen}>
+          <picture className={`${styles.picture}`}>
+            <source srcSet={imgAvif} type='image/avif'/>
+            <source srcSet={imgWebp} type='image/webp'/>
+            <img className={`${styles.img} rounded-1`} loading='lazy' width='200' height='300' src={imgJpg} alt={title} />
+          </picture>
+        </div>
+
 
 
         <h4>{title}</h4>

@@ -8,7 +8,7 @@ import { Fade } from 'react-reveal';
 
 function CardSecondary({title, posted, read, imgJpg = img, imgAvif, imgWebp}) {
   return (
-    <div className={`${styles.cardSecondary} flex`}>
+    <div className={`${styles.cardSecondary} flex rounded`}>
       <Fade bottom>
         <picture className={`${styles.picture}`}>
           <source srcSet={imgAvif} type='image/avif'/>

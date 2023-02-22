@@ -1,12 +1,35 @@
 .cardPrimary {
     margin: 0 0 var(--Margin-M) 0;
     text-align: justify;
+    -webkit-box-shadow: 3px 4px 2px 2px rgba(0,0,0,0.19);
+    -moz-box-shadow: 3px 4px 2px 2px rgba(0,0,0,0.19);
+    box-shadow: 3px 4px 2px 2px rgba(0,0,0,0.19);
+    padding: var(--Margin-S);  
+    transition: .3s;
+    overflow: hidden;
+}
+
+.cardPrimary:hover {
+    margin-bottom: var(--Margin-S);
+}
+
+.cardPrimary:hover .img {
+    transform: scale(1.1);
+}
+
+.picture {
+    overflow: hidden;
+}
+
+.imagen {
+    overflow: hidden;
 }
 
 .img {
     width: 100%;
     height: auto;
     margin: 0 0 1rem 0;
+    transition: .3s;
 }
 
 .imgProfile {
