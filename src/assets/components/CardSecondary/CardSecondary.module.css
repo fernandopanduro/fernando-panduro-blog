@@ -39,7 +39,6 @@
     background-color: var(--Color-ligth);
     padding: var(--Margin-S);
     position: relative;
-    z-index: 10;
 }
 
 .title {
