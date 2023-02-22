@@ -1,0 +1,32 @@
+.cardProduct {
+    overflow: hidden;
+}
+
+.cardProduct:hover .img {
+    transform: scale(1.2);
+}
+
+.containerImg {
+    overflow: hidden;
+}
+
+.img {
+    width: 100%;
+    height: 13.75rem;
+    object-fit: cover;
+    transition: .3s;
+}
+
+.details {
+    padding: var(--Margin-S) 0 0 0;
+}
+
+.title {
+    font-weight: 300;
+    margin: 0;
+    font-size: 1.125rem;
+}
+
+.price {
+    font-size: .75rem;
+}
