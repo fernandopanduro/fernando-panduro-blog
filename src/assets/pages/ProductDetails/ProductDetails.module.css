@@ -3,6 +3,14 @@
     padding-bottom: var(--Margin-M);
     justify-content: center;
     align-items: center;
+    gap: var(--Margin-M);
+}
+
+@media (min-width: 720px) {
+    .productDetails {
+        display: flex;
+        gap: var(--Margin-M);
+    }
 }
 
 .box {
@@ -20,18 +28,27 @@
 .details {
     padding: var(--Margin-M) 0;
     gap: 1rem;
+    align-items: flex-start;
 }
 
 .title {
+    width: 100%;
     margin: 0;
     font-weight: 400;
     font-size: 1.75rem;
+    text-align: left;
 }
 
 .price {
     width: 100%;
     font-size: 1.5rem;
     font-weight: 700;
+}
+
+.tallas {
+    width: 100%;
+    padding: var(--Margin-S);
+    border: 1px solid black;
 }
 
 .btn {
@@ -43,8 +60,24 @@
     font-weight: 500;
 }
 
+
+.pagosTarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagos {
+    display: flex;
+    gap: var(--Margin-S);
+}
+
 .shares {
     display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
     gap: var(--Margin-S);
 }
 
