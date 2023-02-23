@@ -1,4 +1,4 @@
-import { AiOutlineInstagram, AiFillGithub, AiFillYoutube, AiFillLinkedin } from 'react-icons/ai'
+import { AiOutlineInstagram, AiFillGithub, AiFillYoutube, AiFillLinkedin } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 import { Bar } from '../Bar/Bar';
 import { Fade } from 'react-reveal';

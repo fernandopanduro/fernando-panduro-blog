@@ -15,6 +15,7 @@ import Conoceme from './assets/pages/Conoceme/Conoceme';
 import PortfolioPage from './assets/pages/Portfolio/PortfolioPage';
 import ComoSerFeliz from './assets/pages/Blogs/ComoSerFeliz';
 import { Tienda } from './assets/pages/Tienda/Tienda';
+import { ProductDetails } from './assets/pages/ProductDetails/ProductDetails';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
           <Route path='/fernando-panduro' element={<Conoceme />} />
           <Route path='/portfolio' element={<PortfolioPage />} />
           <Route path='/tienda' element={<Tienda />} />
+          <Route path='/product/:id' element={<ProductDetails />} />
           
           <Route path='*' element={<Navigate replace to='/' />} />
 
