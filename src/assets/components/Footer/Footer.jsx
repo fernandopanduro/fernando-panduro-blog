@@ -3,6 +3,11 @@ import { Link } from 'react-router-dom';
 import { Bar } from '../Bar/Bar';
 import { Fade } from 'react-reveal';
 
+import visa from '../../pictures/img/visa.png';
+import amex from '../../pictures/img/amex.png';
+import paypal from '../../pictures/img/paypal.png';
+import masterCard from '../../pictures/img/master-card.png';
+
 import styles from './Footer.module.css';
 
 export function Footer() {
@@ -44,6 +49,13 @@ export function Footer() {
                             <li><Link className={`${styles.listItem}`} to='/reembolso'>Política de reembolsos</Link></li>
                         </ul>
                     </div>
+
+                    <ul className={`${styles.pagos}`}>
+                        <li><img src={visa} alt="Pago con Visa" /></li>
+                        <li><img src={amex} alt="Pago con Amex" /></li>
+                        <li><img src={masterCard} alt="Pago con Master Card" /></li>
+                        <li><img src={paypal} alt="Pago con Paypal" /></li>
+                    </ul>
 
                     <div>
                         <p>Hugo Fernando Garcia Panduro es un creador de contenido mexicano nacido en Culiacán, Sinaloa.</p>

@@ -27,3 +27,8 @@
 .listItem {
     color: #fff;
 }
+
+.pagos {
+    display: flex;
+    gap: var(--Margin-S);
+}
