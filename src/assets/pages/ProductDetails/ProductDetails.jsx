@@ -67,12 +67,10 @@ export const ProductDetails = () => {
                 <div className={`${styles.shares}`}>
                     <span><FiShare2 size={21} /> Compartir</span>
                     <ul className={`${styles.sharesList}`}>
-                        <li className={`${styles.sharesItem}`}><button className={`${styles.sharesBtn}`}><BsFacebook size={21} /></button></li>
-                        <li className={`${styles.sharesItem}`}><button className={`${styles.sharesBtn}`}><BsTwitter size={21} /></button></li>
-                        <li className={`${styles.sharesItem}`}><button className={`${styles.sharesBtn}`}><BsPinterest size={21} /></button></li>
-                        <li className={`${styles.sharesItem}`}><button className={`${styles.sharesBtn}`}><BsWhatsapp size={21} /></button></li>
-                        <li className={`${styles.sharesItem}`}><button className={`${styles.sharesBtn}`}><SiGmail size={21} /></button></li>
-                        <li className={`${styles.sharesItem}`}><button className={`${styles.sharesBtn}`}><BsMessenger size={21} /></button></li>
+                        <li className={`${styles.sharesItem}`}><a target='_blank' title='Facebook' href='https://www.facebook.com/sharer/sharer.php?u=https://ferpanduro.com' className={`${styles.sharesBtn}`}><BsFacebook size={21} /></a></li>
+                        <li className={`${styles.sharesItem}`}><a target='_blank' title='Twitter' href='https://www.twitter.com/intent/tweet?text=Fernando-Panduro&url=www.ferpanduro.com' className={`${styles.sharesBtn}`}><BsTwitter size={21} /></a></li>
+                        <li className={`${styles.sharesItem}`}><a target='_blank' title='Pinterest' href='https://www.pinterest.com/pin/find/?url=https://ferpanduro.com' className={`${styles.sharesBtn}`}><BsPinterest size={21} /></a></li>
+                        <li className={`${styles.sharesItem}`}><a target='_blank' title='Whatsapp' href='https://api.whatsapp.com/send?text=www.ferpanduro.com' className={`${styles.sharesBtn}`}><BsWhatsapp size={21} /></a></li>
                     </ul>
                 </div>
 
