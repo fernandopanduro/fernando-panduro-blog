@@ -1,9 +1,15 @@
 import React from 'react';
 import styles from './Terminos.module.css';
+import { Helmet } from 'react-helmet';
+
 
 function Reembolso() {
   return (
     <div className='container'>  
+          <Helmet>
+            <title>📦 Devoluciones | Fernando Panduro</title>
+            <meta name="description" content="Terminos de reembolso de Fernando Panduro" />
+          </Helmet>
         <div className={`${styles.privacidad} flex`}>
             <h2>Política de devoluciones y reembolsos:</h2>
             <p>Tienes derecho a cancelar tu pedido dentro de los 30 días sin dar ninguna razón para hacerlo.</p>

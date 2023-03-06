@@ -9,8 +9,7 @@ import {IoPricetags} from 'react-icons/io5';
 import {FaEye} from 'react-icons/fa';
 import { BiShoppingBag } from 'react-icons/bi'
 import { FiShare2 } from 'react-icons/fi';
-import { BsFacebook, BsTwitter, BsPinterest, BsMessenger, BsWhatsapp,  } from 'react-icons/bs';
-import { SiGmail } from 'react-icons/si';
+import { BsFacebook, BsTwitter, BsPinterest, BsWhatsapp,  } from 'react-icons/bs';
 
 import visa from '../../pictures/img/visa.png';
 import amex from '../../pictures/img/amex.png';
@@ -18,6 +17,10 @@ import paypal from '../../pictures/img/paypal.png';
 import masterCard from '../../pictures/img/master-card.png';
 
 export const ProductDetails = () => {
+
+    const numeroVendidos = Math.floor(Math.random() * (15 - 5) + 5)
+    const numeroVistas = Math.floor(Math.random() * (25 - 15) + 15)
+
   return (
     <div className={`${styles.containerProductDetails} flex`}>
         <div className={`${styles.productDetails} container`}>
@@ -38,15 +41,27 @@ export const ProductDetails = () => {
                 <Bar />
 
                 <div className={`${styles.box} rounded`}>
-                    <span> <IoPricetags size={20} /> <strong>40 vendidos</strong> en las ultimas 48 horas</span>
+                    <span> <IoPricetags size={20} /> <strong>{numeroVendidos} vendidos</strong> en las ultimas 48 horas</span>
                 </div>
 
-                <select className={`${styles.tallas} rounded text-center`} name="Tallas" id="tallas">
-                    <option value="-- SELECCIONA --">-- SELECCIONA --</option>
-                    <option value="CH">CH</option>
-                    <option value="M">M</option>
-                    <option value="X">X</option>
-                </select>
+                <div className={`${styles.talla}`}>
+                    <span>Talla:</span>
+                    <select className={`${styles.tallas} rounded`} name="Tallas" id="tallas">
+                        <option value="-- SELECCIONA --">-- SELECCIONA --</option>
+                        <option value="CH">CH</option>
+                        <option value="M">M</option>
+                        <option value="X">X</option>
+                    </select>
+                </div>
+
+                {/* <div className={`${styles.cantidad}`}>
+                    <span>Cantidad:</span>
+                    <div className={`${styles.cantidadContainer}`}>
+                        <span className={`${styles.cantidadItem}`}>-</span>
+                        <span className={`${styles.cantidadItem} ${styles.cantidadItemNumber}`}>1</span>
+                        <span className={`${styles.cantidadItem}`}>+</span>
+                    </div>
+                </div> */}
 
                 <button className={`${styles.btn} rounded`}><BiShoppingBag size={21} /> Agregar al carrito</button>
 
@@ -61,18 +76,21 @@ export const ProductDetails = () => {
                 </div>
 
                 <div className={`${styles.box} rounded`}>
-                    <span> <FaEye size={20} /> <strong>26 personas</strong> estan viendo este producto</span>
+                    <span> <FaEye size={20} /> <strong>{numeroVistas} personas</strong> estan viendo este producto</span>
                 </div>
 
                 <div className={`${styles.shares}`}>
                     <span><FiShare2 size={21} /> Compartir</span>
                     <ul className={`${styles.sharesList}`}>
-                        <li className={`${styles.sharesItem}`}><a target='_blank' title='Facebook' href='https://www.facebook.com/sharer/sharer.php?u=https://ferpanduro.com' className={`${styles.sharesBtn}`}><BsFacebook size={21} /></a></li>
-                        <li className={`${styles.sharesItem}`}><a target='_blank' title='Twitter' href='https://www.twitter.com/intent/tweet?text=Fernando-Panduro&url=www.ferpanduro.com' className={`${styles.sharesBtn}`}><BsTwitter size={21} /></a></li>
-                        <li className={`${styles.sharesItem}`}><a target='_blank' title='Pinterest' href='https://www.pinterest.com/pin/find/?url=https://ferpanduro.com' className={`${styles.sharesBtn}`}><BsPinterest size={21} /></a></li>
-                        <li className={`${styles.sharesItem}`}><a target='_blank' title='Whatsapp' href='https://api.whatsapp.com/send?text=www.ferpanduro.com' className={`${styles.sharesBtn}`}><BsWhatsapp size={21} /></a></li>
+                        <li className={`${styles.sharesItem}`}><a target='_blank' title='Compartir por Facebook' href='https://www.facebook.com/sharer/sharer.php?u=https://ferpanduro.com' className={`${styles.sharesBtn}`}><BsFacebook size={21} /></a></li>
+                        <li className={`${styles.sharesItem}`}><a target='_blank' title='Compartir por Twitter' href='https://www.twitter.com/intent/tweet?text=Fernando-Panduro&url=www.ferpanduro.com' className={`${styles.sharesBtn}`}><BsTwitter size={21} /></a></li>
+                        <li className={`${styles.sharesItem}`}><a target='_blank' title='Compartir por Pinterest' href='https://www.pinterest.com/pin/find/?url=https://ferpanduro.com' className={`${styles.sharesBtn}`}><BsPinterest size={21} /></a></li>
+                        <li className={`${styles.sharesItem}`}><a target='_blank' title='Compartir por Whatsapp' href='https://api.whatsapp.com/send?text=www.ferpanduro.com' className={`${styles.sharesBtn}`}><BsWhatsapp size={21} /></a></li>
                     </ul>
                 </div>
+
+                <Bar />
+
 
             </div>
         </div>

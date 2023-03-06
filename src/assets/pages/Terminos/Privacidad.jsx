@@ -1,9 +1,15 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import styles from './Terminos.module.css';
 
 function Privacidad() {
   return (
     <div className='container'>  
+
+      <Helmet>
+        <title>🔐 Terminos de Privacidad | Fernando Panduro</title>
+        <meta name="description" content="Terminos de Privacidad de Fernando Panduro" />
+      </Helmet>
         <div className={`${styles.privacidad} flex`}>
             <h2>Aviso de Privacidad</h2>
             <p>Su privacidad es importante para nosotros. Es política de Fernando Panduro respetar su privacidad respecto a cualquier información personal que podamos recolectar en el sitio web Fernando Panduro, y en los otros sitios que posemos y operamos.</p>

@@ -5,9 +5,9 @@ import CardPortfolio from '../CardPorfolio/CardPortfolio';
 
 import styles from './Portfolio.module.css';
 
-import staniaJpg  from '../../pictures/img/Stania.jpg';
-import staniaAvif  from '../../pictures/img/Stania.avif';
-import staniaWebp  from '../../pictures/img/Stania.webp';
+import energyJpg  from '../../pictures/img/energy.jpg';
+import energyAvif  from '../../pictures/img/energy.avif';
+import energyWebp  from '../../pictures/img/energy.webp';
 
 import eorumJpg  from '../../pictures/img/eorum.jpg';
 import eorumAvif  from '../../pictures/img/eorum.avif';
@@ -27,7 +27,7 @@ function Portfolio({link}) {
             <Fade bottom>
               <CardPortfolio link='https://vendettamx.netlify.app/' title='Vendetta' type='Tienda de ropa para mujeres' imgJpg={vendettaJpg} imgWebp={vendettaWebp} imgAvif={vendettaAvif} />
               <CardPortfolio link='https://eorum.netlify.app/' type='Ecommerce de ropa japonessa' title='Eorum' imgJpg={eorumJpg} imgWebp={eorumWebp} imgAvif={eorumAvif} />
-              <CardPortfolio link='https://stania.netlify.app/' title='Stania' type='Marca de ropa' imgJpg={staniaJpg} imgWebp={staniaWebp} imgAvif={staniaAvif} />
+              <CardPortfolio link='https://energy-pro.netlify.app/' type='Landingpage de Paneles Solares' title='Energy' imgJpg={energyJpg} imgWebp={energyWebp} imgAvif={energyAvif} />
             </Fade>
 
         </div>

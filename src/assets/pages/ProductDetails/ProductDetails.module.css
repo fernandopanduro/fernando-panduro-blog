@@ -15,7 +15,7 @@
 
 .box {
     width: 100%;
-    background-color: gainsboro;
+    background-color: #faf8ff;
     padding: var(--Margin-S) var(--Margin-M);
 }
 
@@ -31,33 +31,112 @@
     align-items: flex-start;
 }
 
+@media (min-width: 720px) {
+    .details {
+        padding: 0;
+    }
+}
+
 .title {
     width: 100%;
     margin: 0;
-    font-weight: 400;
-    font-size: 1.75rem;
     text-align: left;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
 }
 
 .price {
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 700;
+}
+
+.talla {
+    width: 100%;
 }
 
 .tallas {
     width: 100%;
     padding: var(--Margin-S);
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, .4);
+}
+
+.cantidadContainer {
+    display: flex;
+    gap: var(--Margin-S);
+    justify-content: center;
+    align-items: center;
+}
+
+.cantidadItem {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    cursor: pointer;
+    background-color: #faf8ff;
+}
+
+.cantidadItemNumber {
+    cursor: auto;
+    background-color: transparent;
 }
 
 .btn {
     display: block;
     width: 100%;
     padding: 1rem;
-    background-color: var(--Color-dark);
+    background-color: rgba(0, 0, 0, .87);
     color: white;
     font-weight: 500;
+    transition: .3s;
+    animation: btn 7s ease-in-out infinite alternate-reverse forwards;
+}
+
+.btn:hover {
+    background: black;
+}
+
+@keyframes btn {
+    0% {
+        transform: translateX(0);
+    }
+    40% {
+        transform: translateX(0);
+    }
+    42%{
+        transform: translateX(-0.3rem);
+    }
+    45%{
+        transform: translateX(.3rem);
+    }
+    47%{    
+        transform: translateX(-0.3rem);
+    }
+    49%{
+        transform: translateX(.3rem);
+    }
+    51%{
+        transform: translateX(-0.3rem);
+    }
+    53%{
+        transform: translateX(.3rem);
+    }
+    55%{
+        transform: translateX(-0.3rem);
+    }
+    57%{
+        transform: translateX(.3rem);
+    }
+    60% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
 
 

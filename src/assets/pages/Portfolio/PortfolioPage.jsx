@@ -35,7 +35,11 @@ import starlinkWebp  from '../../pictures/img/starlink.webp';
 import bateriaJpg  from '../../pictures/img/bateria.jpg';
 import bateriaAvif  from '../../pictures/img/bateria.avif';
 import bateriaWebp  from '../../pictures/img/bateria.webp';
-import { Link } from 'react-router-dom';
+
+import energyJpg  from '../../pictures/img/energy.jpg';
+import energyAvif  from '../../pictures/img/energy.avif';
+import energyWebp  from '../../pictures/img/energy.webp';
+
 
 
 
@@ -46,6 +50,7 @@ function PortfolioPage() {
       <div className={`${styles.portfolioPage} container`}>
           <CardPortfolio link='https://vendettamx.netlify.app/' type='Tienda de ropa para mujeres' title='Vendetta' imgJpg={vendettaJpg} imgWebp={vendettaWebp} imgAvif={vendettaAvif} />
           <CardPortfolio link='https://eorum.netlify.app/' type='Ecommerce de ropa japonessa' title='Eorum' imgJpg={eorumJpg} imgWebp={eorumWebp} imgAvif={eorumAvif} />
+          <CardPortfolio link='https://energy-pro.netlify.app/' type='Landingpage de Paneles Solares' title='Energy' imgJpg={energyJpg} imgWebp={energyWebp} imgAvif={energyAvif} />
           <CardPortfolio link='https://stania.netlify.app/' type='Marca de ropa' title='Stania'  imgJpg={staniaJpg} imgWebp={staniaWebp} imgAvif={staniaAvif} />
           <CardPortfolio link='https://llantera.netlify.app/' type='Tienda de llantas' title='Llantera Garcia' imgJpg={llanteraJpg} imgWebp={llanteraWebp} imgAvif={llanteraAvif} />
           <CardPortfolio link='https://starlink-premium.netlify.app/' type='Satelites de Elon Musk' title='Starlink' imgJpg={starlinkJpg} imgWebp={starlinkWebp} imgAvif={starlinkAvif} />

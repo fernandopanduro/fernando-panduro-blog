@@ -1,9 +1,16 @@
 import React from 'react';
 import styles from './Terminos.module.css';
+import { Helmet } from 'react-helmet';
 
 function Servicio() {
   return (
     <div className='container'>  
+
+      <Helmet>
+          <title>🛠️ Terminos de Servicio | Fernando Panduro</title>
+          <meta name="description" content="Terminos de servicio de Fernando Panduro" />
+      </Helmet>
+
         <div className={`${styles.privacidad} flex`}>
             <h2>Términos de servicio</h2>
             <p>¡Bienvenido a Fernando Panduro!</p>
