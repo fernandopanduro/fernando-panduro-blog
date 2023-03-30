@@ -33,7 +33,7 @@ function ComoSerFeliz() {
           <picture className={`${styles.picture}`}>
             <source srcSet={imgAvif} type='image/avif'/>
             <source srcSet={imgWebp} type='image/webp'/>
-            <img className={`${styles.img} rounded-1`} loading='lazy' width='200' height='300' src={imgJpg} alt='ChatGPT' />
+            <img className={`${styles.img} rounded-1`} loading='lazy' width='200' height='300' src={imgJpg} alt='Felicidad' />
           </picture>
 
           <p>Nunca busques la felicidad, ya que es una ilusion que se asoma a la lejania, pero en cambio el dolor y el sufrimiento son reales e inmediatos. Como dijo Aristoteles (Ética a Nicómaco); "No aspires al placer sino a la ausencia del  dolor"</p>
@@ -50,7 +50,7 @@ function ComoSerFeliz() {
           <picture className={`${styles.picture}`}>
             <source srcSet={imgAvif2} type='image/avif'/>
             <source srcSet={imgWebp2} type='image/webp'/>
-            <img className={`${styles.img} rounded-1`} loading='lazy' width='200' height='300' src={imgJpg2} alt='ChatGPT3' />
+            <img className={`${styles.img} rounded-1`} loading='lazy' width='200' height='300' src={imgJpg2} alt='Felicidad' />
           </picture>
 
           <p>La salud del cuerpo:</p>
@@ -63,7 +63,7 @@ function ComoSerFeliz() {
           <picture className={`${styles.picture}`}>
             <source srcSet={imgAvif5} type='image/avif'/>
             <source srcSet={imgWebp5} type='image/webp'/>
-            <img className={`${styles.img} rounded-1`} loading='lazy' width='200' height='300' src={imgJpg5} alt='ChatGPT' />
+            <img className={`${styles.img} rounded-1`} loading='lazy' width='200' height='300' src={imgJpg5} alt='Felicidad' />
           </picture>
 
           <p>La tranquilidad del espiritu:</p>
@@ -75,7 +75,7 @@ function ComoSerFeliz() {
           <picture className={`${styles.picture}`}>
             <source srcSet={imgAvif3} type='image/avif'/>
             <source srcSet={imgWebp3} type='image/webp'/>
-            <img className={`${styles.img} rounded-1`} loading='lazy' width='200' height='300' src={imgJpg3} alt='Open AI' />
+            <img className={`${styles.img} rounded-1`} loading='lazy' width='200' height='300' src={imgJpg3} alt='Felicidad' />
           </picture>
 
           <p>Los bienes externos:</p>
@@ -87,7 +87,7 @@ function ComoSerFeliz() {
           <picture className={`${styles.picture}`}>
             <source srcSet={imgAvif4} type='image/avif'/>
             <source srcSet={imgWebp4} type='image/webp'/>
-            <img className={`${styles.img} rounded-1`} loading='lazy' width='200' height='300' src={imgJpg4} alt='ChatGPT' />
+            <img className={`${styles.img} rounded-1`} loading='lazy' width='200' height='300' src={imgJpg4} alt='Felicidad' />
           </picture>
 
           <p>Se puede ser feliz, siento estoico o tambien maquiavélico, pero para este blog se restringieron estas posibilidades.</p>

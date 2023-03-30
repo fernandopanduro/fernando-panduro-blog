@@ -1,5 +1,15 @@
 export const Blog = [
     {
+        title: 'Convertir a las IAs en tus aliados y potenciar tu productividad 🚀💻.',
+        description: '¿Quieres saber cómo sacar el máximo provecho de tus chatbots y otras herramientas de Inteligencia Artificial? ¡El prompting es la clave! 🗝️ Descubre cómo utilizar esta técnica para inducir a tus IAs a actuar de manera efectiva y promover el éxito de tu negocio. 📈',
+        posted: '30 MAR 2022',
+        read: '4 MIN LECTURA',
+        links: '/blogs/learnprompting',
+        imgJpg: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/f9e60decd88c08c44bf732242c32b1e66e76d1c4/src/assets/pictures/img/realidad-virtual-1.jpg',
+        imgAvif: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/f9e60decd88c08c44bf732242c32b1e66e76d1c4/src/assets/pictures/img/realidad-virtual-1.avif',
+        imgWebp: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/f9e60decd88c08c44bf732242c32b1e66e76d1c4/src/assets/pictures/img/realidad-virtual-1.webp',
+    },
+    {
         title: 'El secreto de la felicidad',
         description: 'Nunca busques la felicidad, ya que es una ilusion que se asoma a la lejania, pero en cambio el dolor y el sufrimiento son reales e inmediatos. Como dijo Aristoteles (Ética a Nicómaco); "No aspires al placer sino a la ausencia del  dolor"',
         posted: '18 FEB 2022',
@@ -22,11 +32,12 @@ export const Blog = [
     {
         title: 'El Futuro del Entretenimiento y la Tecnología',
         description: 'La tecnología de realidad virtual (VR) y realidad aumentada (AR) está transformando la forma en que nos entretenemos y experimentamos el mundo que nos rodea. Desde videojuegos hasta la formación, estas tecnologías están ofreciendo experiencias únicas e inmersivas que no se pueden encontrar en ningún otro lugar.',
-        posted: '13 FEB 2022',
+        posted: '11 FEB 2022',
         read: '4 MIN LECTURA',
         links: '/blogs/realidadvirtual',
         imgJpg: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/f9e60decd88c08c44bf732242c32b1e66e76d1c4/src/assets/pictures/img/realidad-virtual-1.jpg',
         imgAvif: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/f9e60decd88c08c44bf732242c32b1e66e76d1c4/src/assets/pictures/img/realidad-virtual-1.avif',
         imgWebp: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/f9e60decd88c08c44bf732242c32b1e66e76d1c4/src/assets/pictures/img/realidad-virtual-1.webp',
-    }
+    },
+
 ]

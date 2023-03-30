@@ -16,6 +16,7 @@ import PortfolioPage from './assets/pages/Portfolio/PortfolioPage';
 import ComoSerFeliz from './assets/pages/Blogs/ComoSerFeliz';
 import { Tienda } from './assets/pages/Tienda/Tienda';
 import { ProductDetails } from './assets/pages/ProductDetails/ProductDetails';
+import LearnPrompting from './assets/pages/Blogs/LearnPrompting';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           <Route path='/blogs/chatgpt' element={<Chatgpt />} />
           <Route path='/blogs/realidadvirtual' element={<RealidadVirtual />} />
           <Route path='/blogs/el-secreto-de-la-felicidad' element={<ComoSerFeliz />} />
+          <Route path='/blogs/learnprompting' element={<LearnPrompting />} />
           <Route path='/privacidad' element={<Privacidad />} />
           <Route path='/reembolso' element={<Reembolso />} />
           <Route path='/servicio' element={<Servicio />} />
