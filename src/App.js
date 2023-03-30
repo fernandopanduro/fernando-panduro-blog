@@ -17,6 +17,7 @@ import ComoSerFeliz from './assets/pages/Blogs/ComoSerFeliz';
 import { Tienda } from './assets/pages/Tienda/Tienda';
 import { ProductDetails } from './assets/pages/ProductDetails/ProductDetails';
 import LearnPrompting from './assets/pages/Blogs/LearnPrompting';
+import LearnPromptingBasics from './assets/pages/Blogs/LearnPromptingBasics';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route path='/blogs/realidadvirtual' element={<RealidadVirtual />} />
           <Route path='/blogs/el-secreto-de-la-felicidad' element={<ComoSerFeliz />} />
           <Route path='/blogs/learnprompting' element={<LearnPrompting />} />
+          <Route path='/blogs/learnpromptingbasics' element={<LearnPromptingBasics />} />
           <Route path='/privacidad' element={<Privacidad />} />
           <Route path='/reembolso' element={<Reembolso />} />
           <Route path='/servicio' element={<Servicio />} />

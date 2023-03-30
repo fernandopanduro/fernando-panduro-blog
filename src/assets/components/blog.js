@@ -1,13 +1,23 @@
 export const Blog = [
     {
-        title: 'Convertir a las IAs en tus aliados y potenciar tu productividad 🚀💻.',
+        title: '🚀 Prompt Engineer: la habilidad del futuro en Inteligencia Artificial',
+        description: '¡Perfecto! 🎉 Comencemos con los fundamentos de la Inteligencia Artificial (IA) 🧠. La IA es un algoritmo inteligente que piensa como los humanos 👥. Es útil para automatizar tareas repetitivas, pero muchas veces necesita que un humano la dirija y le dé instrucciones 🤖💭.',
+        posted: '1 ABRIL 2022',
+        read: '6 MIN LECTURA',
+        links: '/blogs/learnpromptingbasics',
+        imgJpg: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/d7d8dccca6c49d04b9be5b3c2d99bda22e3d0ebe/src/assets/pictures/img/phone-gpt2.jpg',
+        imgAvif: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/d7d8dccca6c49d04b9be5b3c2d99bda22e3d0ebe/src/assets/pictures/img/phone-gpt2.avif',
+        imgWebp: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/d7d8dccca6c49d04b9be5b3c2d99bda22e3d0ebe/src/assets/pictures/img/phone-gpt2.webp',
+    },
+    {
+        title: 'Convertir a las IAs en tus aliados y potenciar tu productividad 🚀💻',
         description: '¿Quieres saber cómo sacar el máximo provecho de tus chatbots y otras herramientas de Inteligencia Artificial? ¡El prompting es la clave! 🗝️ Descubre cómo utilizar esta técnica para inducir a tus IAs a actuar de manera efectiva y promover el éxito de tu negocio. 📈',
         posted: '30 MAR 2022',
         read: '4 MIN LECTURA',
         links: '/blogs/learnprompting',
-        imgJpg: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/f9e60decd88c08c44bf732242c32b1e66e76d1c4/src/assets/pictures/img/realidad-virtual-1.jpg',
-        imgAvif: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/f9e60decd88c08c44bf732242c32b1e66e76d1c4/src/assets/pictures/img/realidad-virtual-1.avif',
-        imgWebp: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/f9e60decd88c08c44bf732242c32b1e66e76d1c4/src/assets/pictures/img/realidad-virtual-1.webp',
+        imgJpg: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/d7d8dccca6c49d04b9be5b3c2d99bda22e3d0ebe/src/assets/pictures/img/computer-coding2.jpg',
+        imgAvif: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/d7d8dccca6c49d04b9be5b3c2d99bda22e3d0ebe/src/assets/pictures/img/computer-coding2.avif',
+        imgWebp: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/d7d8dccca6c49d04b9be5b3c2d99bda22e3d0ebe/src/assets/pictures/img/computer-coding2.webp',
     },
     {
         title: 'El secreto de la felicidad',
