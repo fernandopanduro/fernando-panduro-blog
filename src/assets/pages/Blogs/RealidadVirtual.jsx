@@ -18,10 +18,15 @@ import imgWebp3 from '../../pictures/img/realidad-virtual-3.webp';
 import imgJpg4 from '../../pictures/img/realidad-virtual-4.jpg';
 import imgAvif4 from '../../pictures/img/realidad-virtual-4.avif';
 import imgWebp4 from '../../pictures/img/realidad-virtual-4.webp';
+import { Helmet } from 'react-helmet';
 
 function RealidadVirtual() {
   return (
     <div className={`${styles.containerBlogs} flex container`}>
+      <Helmet>
+        <title>La Realidad Virtual y Aumentada: El Futuro de la Entretención y la Tecnología | Fernando Panduro</title>
+        <meta name='description' content='La tecnología de realidad virtual (VR) y realidad aumentada (AR) está transformando la forma en que nos entretenemos y experimentamos el mundo que nos rodea. Desde videojuegos hasta la formación, estas tecnologías están ofreciendo experiencias únicas e inmersivas que no se pueden encontrar en ningún otro lugar.' />
+      </Helmet>
       <div className={`${styles.blogs} flex`}>
           <h2 className='text-center'>La Realidad Virtual y Aumentada: El Futuro de la Entretención y la Tecnología</h2>
           <Bar />

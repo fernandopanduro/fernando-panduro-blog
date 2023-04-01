@@ -22,10 +22,15 @@ import imgWebp4 from '../../pictures/img/felicidad4.webp';
 import imgJpg5 from '../../pictures/img/ejercicio1.jpg';
 import imgAvif5 from '../../pictures/img/ejercicio1.avif';
 import imgWebp5 from '../../pictures/img/ejercicio1.webp';
+import { Helmet } from 'react-helmet';
 
 function ComoSerFeliz() {
   return (
     <div className={`${styles.containerBlogs} flex container`}>
+      <Helmet>
+        <title>El secreto de la felicidad | Fernando Panduro</title>
+        <meta name='description' content='Nunca busques la felicidad, ya que es una ilusion que se asoma a la lejania, pero en cambio el dolor y el sufrimiento son reales e inmediatos. Como dijo Aristoteles (Ética a Nicómaco); "No aspires al placer sino a la ausencia del  dolor"' />
+      </Helmet>
       <div className={`${styles.blogs} flex`}>
           <h2 className='text-center'>El secreto de la felicidad</h2>
           <Bar />

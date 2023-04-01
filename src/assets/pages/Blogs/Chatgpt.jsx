@@ -14,10 +14,15 @@ import imgWebp2 from '../../pictures/img/chatGPT3.webp';
 import imgJpg3 from '../../pictures/img/openAI.jpg';
 import imgAvif3 from '../../pictures/img/openAI.avif';
 import imgWebp3 from '../../pictures/img/openAI.webp';
+import { Helmet } from 'react-helmet';
 
 function chatgpt() {
   return (
     <div className={`${styles.containerBlogs} flex container`}>
+      <Helmet>
+        <title>La respuesta a tus preguntas: ChatGPT | Fernando Panduro</title>
+        <mata name='description' content='Imagina que estás en casa una noche, después de un día largo y agotador en el trabajo. Tienes una pregunta que te ronda la cabeza y no puedes encontrar la respuesta. ¿Qué haces en una situación así? Por supuesto, te metes en internet y empiezas a buscar. Pero hay tantos resultados y tantas páginas que es difícil saber por dónde empezar. ¿Te suena familiar?' />
+      </Helmet>
       <div className={`${styles.blogs} flex`}>
           <h2 className='text-center'>La respuesta a tus preguntas: ChatGPT</h2>
           <Bar />

@@ -14,10 +14,16 @@ import imgWebp2 from '../../pictures/img/phone-gpt.webp';
 import imgJpg3 from '../../pictures/img/woman-coding.jpg';
 import imgAvif3 from '../../pictures/img/woman-coding.avif';
 import imgWebp3 from '../../pictures/img/woman-coding.webp';
+import { Helmet } from 'react-helmet';
 
 export default function LearnPrompting() {
   return (
     <div className={`${styles.containerBlogs} flex container`}>
+      <Helmet>
+        <title>Convertir a las IAs en tus aliados y potenciar tu productividad 🚀💻 | Fernando Panduro</title>
+        <meta name="description" content='¿Quieres saber cómo sacar el máximo provecho de tus chatbots y otras herramientas de Inteligencia Artificial? ¡El prompting es la clave! 🗝️ Descubre cómo utilizar esta técnica para inducir a tus IAs a actuar de manera efectiva y promover el éxito de tu negocio. 📈' />
+      </Helmet>
+
         <div className={`${styles.blogs} flex`}>
             <h2 className='text-center'>Convertir a las IAs en tus aliados y potenciar tu productividad 🚀💻</h2>
             <Bar />
