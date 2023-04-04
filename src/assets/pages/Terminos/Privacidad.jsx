@@ -5,13 +5,12 @@ import styles from './Terminos.module.css';
 function Privacidad() {
   return (
     <div className='container'>  
-
       <Helmet>
         <title>🔐 Terminos de Privacidad | Fernando Panduro</title>
         <meta name="description" content="Terminos de Privacidad de Fernando Panduro" />
       </Helmet>
         <div className={`${styles.privacidad} flex`}>
-            <h2>Aviso de Privacidad</h2>
+            <h2 id='title'>Aviso de Privacidad</h2>
             <p>Su privacidad es importante para nosotros. Es política de Fernando Panduro respetar su privacidad respecto a cualquier información personal que podamos recolectar en el sitio web Fernando Panduro, y en los otros sitios que posemos y operamos.</p>
             <p>Solicitamos información personal solo cuando realmente la requerimos para prestar un servicio. Lo hacemos a través de medios justos y legales, bajo su conocimiento y consentimiento. También le informamos por qué la estamos recolectando y cómo será utilizada.</p>
             <p>Solo retenemos la información recolectada durante el tiempo que sea necesario para brindarle el servicio solicitado. Cuando recolectamos datos, los protegemos dentro de medios comercialmente aceptables, con el fin de evitar pérdidas y robos, así como el acceso, la divulgación, la copia, el uso o la modificación no autorizada.</p>
