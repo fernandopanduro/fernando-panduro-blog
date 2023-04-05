@@ -1,5 +1,15 @@
 export const Blog = [
     {
+        title: '¡Cuidado con el impostor! 😱 ¿Qué pasa cuando la IA es demasiado buena en la generación de textos? 🤖',
+        description: '¿Estás cansado de encontrarte con textos que parecen escritos por humanos, pero en realidad son obra de inteligencias artificiales? 😩🤖 Bueno, ¡tienes un problema en común con investigadores, educadores y cualquier otra persona que se preocupe por la calidad de los contenidos que lee! 📚👀 La detección de textos generados por IA es un tema de importancia mundial, y aquí te contamos todo lo que necesitas saber. 💡💻',
+        posted: '9 ABRIL 2022',
+        read: '4 MIN LECTURA',
+        links: '/blogs/learnpromptingindetecciontext',
+        imgJpg: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/d7d8dccca6c49d04b9be5b3c2d99bda22e3d0ebe/src/assets/pictures/img/openai-white.jpg',
+        imgAvif: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/d7d8dccca6c49d04b9be5b3c2d99bda22e3d0ebe/src/assets/pictures/img/openai-white.avif',
+        imgWebp: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/d7d8dccca6c49d04b9be5b3c2d99bda22e3d0ebe/src/assets/pictures/img/openai-white.webp',
+    },
+    {
         title: '🎶 El caos de los modelos de generación de música 🎹',
         description: 'Los modelos de generación de música 🎶 son la nueva moda en la industria musical 🎵. Pronto, los músicos serán reemplazados por robots 🤖 con mucho más talento que ellos. ¡Adiós, talento humano! 👋 ¡Hola, robótica musical! 🎹',
         posted: '4 ABRIL 2022',
@@ -12,7 +22,7 @@ export const Blog = [
     {
         title: '🤖 LLMs: ¿La solución a nuestros problemas o el comienzo del apocalipsis?',
         description: '🌎 ¡Bienvenidos al mundo de los modelos de lenguaje! Los LLM (por sus siglas en inglés, Language Models) son la nueva sensación en el mundo de la tecnología. A diferencia de los humanos, estos modelos no necesitan dormir, comer ni descansar. Pueden procesar información 24/7 sin parar. Entonces, ¿qué podría salir mal? 😬',
-        posted: '3 ABRIL 2022',
+        posted: '2 ABRIL 2022',
         read: '5 MIN LECTURA',
         links: '/blogs/learnpromptingintermedio',
         imgJpg: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/d7d8dccca6c49d04b9be5b3c2d99bda22e3d0ebe/src/assets/pictures/img/openai-white.jpg',

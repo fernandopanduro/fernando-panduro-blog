@@ -20,6 +20,7 @@ import LearnPrompting from './assets/pages/Blogs/LearnPrompting';
 import LearnPromptingBasics from './assets/pages/Blogs/LearnPromptingBasics';
 import LearnPromptingIntermedie from './assets/pages/Blogs/LearnPromptingIntermedie';
 import LearnPromptingMusic from './assets/pages/Blogs/LearnPromptingMusic';
+import LearnPromptingDeteccionText from "./assets/pages/Blogs/LearnPromptingDeteccionText";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
           <Route path='/blogs/learnpromptingbasics' element={<LearnPromptingBasics />} />
           <Route path='/blogs/learnpromptingintermedio' element={<LearnPromptingIntermedie />} />
           <Route path='/blogs/learnpromptinginmusic' element={<LearnPromptingMusic />} />
+          <Route path='/blogs/learnpromptingindetecciontext' element={<LearnPromptingDeteccionText />} />
           <Route path='/privacidad' element={<Privacidad />} />
           <Route path='/reembolso' element={<Reembolso />} />
           <Route path='/servicio' element={<Servicio />} />
