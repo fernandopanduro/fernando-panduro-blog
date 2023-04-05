@@ -2,6 +2,16 @@ export const Blog = [
     {
         title: '¡Cuidado con el impostor! 😱 ¿Qué pasa cuando la IA es demasiado buena en la generación de textos? 🤖',
         description: '¿Estás cansado de encontrarte con textos que parecen escritos por humanos, pero en realidad son obra de inteligencias artificiales? 😩🤖 Bueno, ¡tienes un problema en común con investigadores, educadores y cualquier otra persona que se preocupe por la calidad de los contenidos que lee! 📚👀 La detección de textos generados por IA es un tema de importancia mundial, y aquí te contamos todo lo que necesitas saber. 💡💻',
+        posted: '10 ABRIL 2022',
+        read: '8 MIN LECTURA',
+        links: '/blogs/learnpromptingincreateimages',
+        imgJpg: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/39af559cf185147a009f0bc762b673087399a224/src/assets/pictures/img/deteccion.jpg',
+        imgAvif: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/39af559cf185147a009f0bc762b673087399a224/src/assets/pictures/img/deteccion.avif',
+        imgWebp: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/39af559cf185147a009f0bc762b673087399a224/src/assets/pictures/img/deteccion.webp',
+    },
+    {
+        title: '¡Cuidado con el impostor! 😱 ¿Qué pasa cuando la IA es demasiado buena en la generación de textos? 🤖',
+        description: '¿Estás cansado de encontrarte con textos que parecen escritos por humanos, pero en realidad son obra de inteligencias artificiales? 😩🤖 Bueno, ¡tienes un problema en común con investigadores, educadores y cualquier otra persona que se preocupe por la calidad de los contenidos que lee! 📚👀 La detección de textos generados por IA es un tema de importancia mundial, y aquí te contamos todo lo que necesitas saber. 💡💻',
         posted: '9 ABRIL 2022',
         read: '4 MIN LECTURA',
         links: '/blogs/learnpromptingindetecciontext',
