@@ -37,12 +37,12 @@ function App() {
           <Route path='/blogs/chatgpt' element={<Chatgpt />} />
           <Route path='/blogs/realidadvirtual' element={<RealidadVirtual />} />
           <Route path='/blogs/el-secreto-de-la-felicidad' element={<ComoSerFeliz />} />
-          <Route path='/blogs/learnprompting' element={<LearnPrompting />} />
-          <Route path='/blogs/learnpromptingbasics' element={<LearnPromptingBasics />} />
-          <Route path='/blogs/learnpromptingintermedio' element={<LearnPromptingIntermedie />} />
-          <Route path='/blogs/learnpromptinginmusic' element={<LearnPromptingMusic />} />
-          <Route path='/blogs/learnpromptingindetecciontext' element={<LearnPromptingDeteccionText />} />
-          <Route path='/blogs/learnpromptingincreateimages' element={<LearnPromptingCreateImages />} />
+          <Route path='/blogs/learnprompting/introduccion' element={<LearnPrompting />} />
+          <Route path='/blogs/learnprompting/basics' element={<LearnPromptingBasics />} />
+          <Route path='/blogs/learnprompting/intermedio' element={<LearnPromptingIntermedie />} />
+          <Route path='/blogs/learnprompting/music' element={<LearnPromptingMusic />} />
+          <Route path='/blogs/learnprompting/detecciontext' element={<LearnPromptingDeteccionText />} />
+          <Route path='/blogs/learnprompting/createimages' element={<LearnPromptingCreateImages />} />
           <Route path='/privacidad' element={<Privacidad />} />
           <Route path='/reembolso' element={<Reembolso />} />
           <Route path='/servicio' element={<Servicio />} />
