@@ -20,6 +20,8 @@
 .img {
     width: 100%;
     height: auto;
+    max-height: 37.5rem;
+    object-position: center;
     margin-bottom: var(--Margin-S);
     object-fit: cover;
 }

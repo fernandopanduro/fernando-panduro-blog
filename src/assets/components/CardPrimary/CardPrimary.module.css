@@ -28,6 +28,9 @@
 .img {
     width: 100%;
     height: auto;
+    max-height: 37.5rem;
+    object-position: center;
+    object-fit: cover;
     margin: 0 0 1rem 0;
     transition: .3s;
 }
