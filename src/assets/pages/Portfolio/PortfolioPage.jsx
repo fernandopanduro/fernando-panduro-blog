@@ -48,15 +48,15 @@ function PortfolioPage() {
     <div className={`${styles.containerPortfolioPage}`}>
       <h2 className={`${styles.title}`}>Portafolio</h2>
       <div className={`${styles.portfolioPage} container`}>
-          <CardPortfolio link='https://vendettamx.netlify.app/' type='Tienda de ropa para mujeres' title='Vendetta' imgJpg={vendettaJpg} imgWebp={vendettaWebp} imgAvif={vendettaAvif} />
-          <CardPortfolio link='https://eorum.netlify.app/' type='Ecommerce de ropa japonessa' title='Eorum' imgJpg={eorumJpg} imgWebp={eorumWebp} imgAvif={eorumAvif} />
-          <CardPortfolio link='https://energy-pro.netlify.app/' type='Landingpage de Paneles Solares' title='Energy' imgJpg={energyJpg} imgWebp={energyWebp} imgAvif={energyAvif} />
-          <CardPortfolio link='https://stania.netlify.app/' type='Marca de ropa' title='Stania'  imgJpg={staniaJpg} imgWebp={staniaWebp} imgAvif={staniaAvif} />
-          <CardPortfolio link='https://llantera.netlify.app/' type='Tienda de llantas' title='Llantera Garcia' imgJpg={llanteraJpg} imgWebp={llanteraWebp} imgAvif={llanteraAvif} />
-          <CardPortfolio link='https://starlink-premium.netlify.app/' type='Satelites de Elon Musk' title='Starlink' imgJpg={starlinkJpg} imgWebp={starlinkWebp} imgAvif={starlinkAvif} />
-          <CardPortfolio link='https://vehblogs.netlify.app/' type='Blog informativo' title='VenBlog' imgJpg={venblogJpg} imgWebp={venblogWebp} imgAvif={venblogAvif} />
-          <CardPortfolio link='https://batteryfernando.netlify.app/' type='Porcentaje de bateria' title='Bateria' imgJpg={bateriaJpg} imgWebp={bateriaWebp} imgAvif={bateriaAvif} />
-          <CardPortfolio link='https://calculadora-glassmorphism.netlify.app/' type='Calculadora glassmorphism' title='Calculadora' imgJpg={calculadoraJpg} imgWebp={calculadoraWebp} imgAvif={calculadoraAvif} />
+          <CardPortfolio technology='REACTJS - CSSModules - GIT' link='https://vendettamx.netlify.app/' type='Tienda de ropa para mujeres' title='Vendetta' imgJpg={vendettaJpg} imgWebp={vendettaWebp} imgAvif={vendettaAvif} />
+          <CardPortfolio technology='REACTJS - TAILWIND - GIT ' link='https://eorum.netlify.app/' type='Ecommerce de ropa japonessa' title='Eorum' imgJpg={eorumJpg} imgWebp={eorumWebp} imgAvif={eorumAvif} />
+          <CardPortfolio technology='REACTJS - TAILWIND - CSSModules - GIT - GULP' link='https://stania.netlify.app/' type='Marca de ropa' title='Stania'  imgJpg={staniaJpg} imgWebp={staniaWebp} imgAvif={staniaAvif} />
+          <CardPortfolio technology='REACTJS - CSSModules - GIT' link='https://llantera.netlify.app/' type='Tienda de llantas' title='Llantera Garcia' imgJpg={llanteraJpg} imgWebp={llanteraWebp} imgAvif={llanteraAvif} />
+          <CardPortfolio technology='HTML - SCSS - JS - GIT - GULP' link='https://starlink-premium.netlify.app/' type='Satelites de Elon Musk' title='Starlink' imgJpg={starlinkJpg} imgWebp={starlinkWebp} imgAvif={starlinkAvif} />
+          <CardPortfolio technology='HTML - SCSS - JS - PHP' link='https://vehblogs.netlify.app/' type='Blog informativo' title='VenBlog' imgJpg={venblogJpg} imgWebp={venblogWebp} imgAvif={venblogAvif} />
+          <CardPortfolio technology='HTML - CSS - JS - GIT - GULP' link='https://energy-pro.netlify.app/' type='Landingpage de Paneles Solares' title='Energy' imgJpg={energyJpg} imgWebp={energyWebp} imgAvif={energyAvif} />
+          <CardPortfolio technology='HTML - CSS -JS' link='https://batteryfernando.netlify.app/' type='Porcentaje de bateria' title='Bateria' imgJpg={bateriaJpg} imgWebp={bateriaWebp} imgAvif={bateriaAvif} />
+          <CardPortfolio technology='HTML - CSS -JS' link='https://calculadora-glassmorphism.netlify.app/' type='Calculadora glassmorphism' title='Calculadora' imgJpg={calculadoraJpg} imgWebp={calculadoraWebp} imgAvif={calculadoraAvif} />
       </div>
     </div>
   )
