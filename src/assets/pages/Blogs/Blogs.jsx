@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Blog } from '../../components/blog';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import CardPrimary from '../../components/CardPrimary/CardPrimary';
 
 import styles from './Blogs.module.css';
@@ -9,6 +10,11 @@ import styles from './Blogs.module.css';
 function Blogs() {
   return (
     <div className={`${styles.blogs} container`}> 
+
+      <Helmet>
+        <title>Blogs | Fernando Panduro</title>
+        <meta name='description' content='Portafolio' />
+      </Helmet>
 
       <h2 className={`${styles.title} text-center text-uppercase`}>Blogs</h2>
 

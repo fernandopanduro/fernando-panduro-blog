@@ -40,12 +40,17 @@ import energyJpg  from '../../pictures/img/energy.jpg';
 import energyAvif  from '../../pictures/img/energy.avif';
 import energyWebp  from '../../pictures/img/energy.webp';
 
+import { Helmet } from 'react-helmet';
 
 
 
 function PortfolioPage() {
   return (
     <div className={`${styles.containerPortfolioPage}`}>
+      <Helmet>    
+        <title>Portafolio | Fernando Panduro</title>
+        <meta name='description' content='Portafolio' />
+      </Helmet>
       <h2 className={`${styles.title}`}>Portafolio</h2>
       <div className={`${styles.portfolioPage} container`}>
           <CardPortfolio technology='REACTJS - CSSModules - GIT' link='https://vendettamx.netlify.app/' type='Tienda de ropa para mujeres' title='Vendetta' imgJpg={vendettaJpg} imgWebp={vendettaWebp} imgAvif={vendettaAvif} />
