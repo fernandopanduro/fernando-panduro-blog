@@ -17,7 +17,7 @@ function CardsSection({heading, link}) {
       <Link to={links}><CardPrimary  imgAvif={imgAvif} imgJpg={imgJpg} imgWebp={imgWebp}  title={title} description={description} read={read} posted={posted} /></Link>
       
       {
-        Blog.map((blog, index) => ( 
+        Blog.slice(0, 4).map((blog, index) => ( 
         <Link key={index} className={styles.link} to={blog.links}> 
           <CardSecondary  imgJpg={blog.imgJpg} imgAvif={blog.imgAvif} imgWebp={blog.imgWebp} title={blog.title} read={blog.read} posted={blog.posted}/> 
         </Link>
