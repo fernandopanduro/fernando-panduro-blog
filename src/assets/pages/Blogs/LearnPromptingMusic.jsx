@@ -20,6 +20,7 @@ import imgWebp4 from '../../pictures/img/listenig-music.webp';
 import imgAvif4 from '../../pictures/img/listenig-music.avif'; 
 
 export default function LearnPromptingMusic() {
+  window.scrollTo(0,0)
   return (
     <div className={`${styles.containerBlogs} flex container`}>
         <Helmet>

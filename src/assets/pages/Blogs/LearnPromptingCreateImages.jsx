@@ -24,6 +24,8 @@ import imgWebp5 from '../../pictures/img/ia-shipost.webp';
 import imgAvif5 from '../../pictures/img/ia-shipost.avif';
 
 export default function LearnPromptingCreateImages() {
+  window.scrollTo(0,0)
+
   return (
     <div className={`${styles.containerBlogs} flex container`}>
         <Helmet>

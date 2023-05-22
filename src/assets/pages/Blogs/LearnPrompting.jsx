@@ -17,6 +17,7 @@ import imgWebp3 from '../../pictures/img/woman-coding.webp';
 import { Helmet } from 'react-helmet';
 
 export default function LearnPrompting() {
+  window.scrollTo(0,0)
   return (
     <div className={`${styles.containerBlogs} flex container`}>
       <Helmet>

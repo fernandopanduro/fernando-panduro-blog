@@ -25,6 +25,7 @@ import imgWebp5 from '../../pictures/img/ejercicio1.webp';
 import { Helmet } from 'react-helmet';
 
 function ComoSerFeliz() {
+  window.scrollTo(0,0)
   return (
     <div className={`${styles.containerBlogs} flex container`}>
       <Helmet>

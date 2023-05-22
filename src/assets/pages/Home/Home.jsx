@@ -7,6 +7,9 @@ import styles from './Home.module.css';
 
 
 export function Home() {
+
+  window.scrollTo(0,0)
+
     return (
         <div className={styles.home}>
             <Helmet><title>Fernando Panduro</title></Helmet>

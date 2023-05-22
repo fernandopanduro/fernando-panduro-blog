@@ -17,6 +17,8 @@ import imgWebp3 from '../../pictures/img/openAI.webp';
 import { Helmet } from 'react-helmet';
 
 function chatgpt() {
+  window.scrollTo(0,0)
+
   return (
     <div className={`${styles.containerBlogs} flex container`}>
       <Helmet>

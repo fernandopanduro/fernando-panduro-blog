@@ -21,6 +21,7 @@ import imgWebp5 from '../../pictures/img/phone-gpt2.webp';
 import { Helmet } from 'react-helmet';
 
 export default function LearnPromptingBasics() {
+  window.scrollTo(0,0)
   return (
     <div className={`${styles.containerBlogs} flex container`}>
       <Helmet>

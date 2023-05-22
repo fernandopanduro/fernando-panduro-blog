@@ -8,6 +8,9 @@ import CardPrimary from '../../components/CardPrimary/CardPrimary';
 import styles from './Blogs.module.css';
 
 function Blogs() {
+
+  window.scrollTo(0,0)
+
   return (
     <div className={`${styles.blogs} container`}> 
 

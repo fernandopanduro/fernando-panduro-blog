@@ -21,6 +21,7 @@ import imgWebp4 from '../../pictures/img/realidad-virtual-4.webp';
 import { Helmet } from 'react-helmet';
 
 function RealidadVirtual() {
+  window.scrollTo(0,0)
   return (
     <div className={`${styles.containerBlogs} flex container`}>
       <Helmet>

@@ -18,6 +18,8 @@ import masterCard from '../../pictures/img/master-card.png';
 
 export const ProductDetails = () => {
 
+    window.scrollTo(0,0)
+
     const numeroVendidos = Math.floor(Math.random() * (15 - 5) + 5)
     const numeroVistas = Math.floor(Math.random() * (25 - 15) + 15)
 

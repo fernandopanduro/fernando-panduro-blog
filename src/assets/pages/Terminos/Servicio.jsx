@@ -3,6 +3,9 @@ import styles from './Terminos.module.css';
 import { Helmet } from 'react-helmet';
 
 function Servicio() {
+
+  window.scrollTo(0,0)
+
   return (
     <div className='container'>  
 

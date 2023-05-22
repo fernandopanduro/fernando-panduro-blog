@@ -3,6 +3,9 @@ import { Helmet } from 'react-helmet';
 import styles from './Terminos.module.css';
 
 function Privacidad() {
+
+  window.scrollTo(0,0)
+
   return (
     <div className='container'>  
       <Helmet>

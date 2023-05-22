@@ -36,6 +36,9 @@ import imgWebp8 from '../../pictures/img/monkey.webp';
 
 
 function Conoceme() {
+
+  window.scrollTo(0,0)
+
   return (
     <div className={`${styles.containerConoceme} flex`}>
         <Helmet>

@@ -1,5 +1,4 @@
 import './App.module.css';
-import {  } from 'react-dom'
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
 import { Home } from './assets/pages/Home/Home'
@@ -24,6 +23,7 @@ import LearnPromptingDeteccionText from "./assets/pages/Blogs/LearnPromptingDete
 import LearnPromptingCreateImages from './assets/pages/Blogs/LearnPromptingCreateImages';
 
 function App() {
+
   return (
     <Router>
 

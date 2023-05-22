@@ -16,6 +16,7 @@ import imgWebp3 from '../../pictures/img/phone-gpt.webp';
 import imgAvif3 from '../../pictures/img/phone-gpt.avif';
 
 export default function LearnPromptingDeteccionText() {
+  window.scrollTo(0,0)
   return (
     <div className={`${styles.containerBlogs} flex container`}>
         <Helmet>

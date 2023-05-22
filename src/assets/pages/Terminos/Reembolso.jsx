@@ -4,6 +4,9 @@ import { Helmet } from 'react-helmet';
 
 
 function Reembolso() {
+
+  window.scrollTo(0,0)
+
   return (
     <div className='container'>  
           <Helmet>
