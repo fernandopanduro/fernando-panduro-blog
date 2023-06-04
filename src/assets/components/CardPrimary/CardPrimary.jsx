@@ -3,6 +3,7 @@ import React from 'react';
 import styles  from './CardPrimary.module.css';
 import { Bar } from '../Bar/Bar';
 import { Fade } from 'react-reveal';
+import { MdVerified } from 'react-icons/md'
 
 import perfil from '../../pictures/img/perfil.jpg';
 import perfilAvif from '../../pictures/img/perfil.avif';
@@ -37,7 +38,7 @@ function CardPrimary({posted, read, description, title, imgAvif, imgWebp, imgJpg
           </picture>
 
           <div className={`${styles.detailsDescription} flex`}>
-            <span className='text-uppercase'>Fernando Panduro</span>
+            <span className='text-uppercase'>Fernando Panduro <MdVerified color='#499be2' /></span>
             <span className={`text-uppercase text-secondary`}>{posted} - {read}</span>
           </div>
 

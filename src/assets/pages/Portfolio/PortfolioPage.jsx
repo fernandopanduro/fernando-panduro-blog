@@ -4,6 +4,10 @@ import styles from './PortfolioPage.module.css';
 import CardPortfolio from '../../components/CardPorfolio/CardPortfolio';
 
 // Images
+import mazyJpg  from '../../pictures/img/mazy.jpg';
+import mazyAvif  from '../../pictures/img/mazy.avif';
+import mazyWebp  from '../../pictures/img/mazy.webp';
+
 import staniaJpg  from '../../pictures/img/Stania.jpg';
 import staniaAvif  from '../../pictures/img/Stania.avif';
 import staniaWebp  from '../../pictures/img/Stania.webp';
@@ -58,6 +62,7 @@ function PortfolioPage() {
       <div className={`${styles.portfolioPage} container`}>
           <CardPortfolio technology='REACTJS - CSSModules - GIT' link='https://vendettamx.netlify.app/' type='Tienda de ropa para mujeres' title='Vendetta' imgJpg={vendettaJpg} imgWebp={vendettaWebp} imgAvif={vendettaAvif} />
           <CardPortfolio technology='REACTJS - TAILWIND - GIT ' link='https://eorum.netlify.app/' type='Ecommerce de ropa japonessa' title='Eorum' imgJpg={eorumJpg} imgWebp={eorumWebp} imgAvif={eorumAvif} />
+          <CardPortfolio technology='REACTJS - CSSModules - GIT' link='https://mazy.netlify.app/' type='Web de vaporizador de comida' title='Mazy' imgJpg={mazyJpg} imgWebp={mazyWebp} imgAvif={mazyAvif} />
           <CardPortfolio technology='REACTJS - TAILWIND - CSSModules - GIT - GULP' link='https://stania.netlify.app/' type='Marca de ropa' title='Stania'  imgJpg={staniaJpg} imgWebp={staniaWebp} imgAvif={staniaAvif} />
           <CardPortfolio technology='REACTJS - CSSModules - GIT' link='https://llantera.netlify.app/' type='Tienda de llantas' title='Llantera Garcia' imgJpg={llanteraJpg} imgWebp={llanteraWebp} imgAvif={llanteraAvif} />
           <CardPortfolio technology='HTML - SCSS - JS - GIT - GULP' link='https://starlink-premium.netlify.app/' type='Satelites de Elon Musk' title='Starlink' imgJpg={starlinkJpg} imgWebp={starlinkWebp} imgAvif={starlinkAvif} />

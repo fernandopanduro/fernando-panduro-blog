@@ -5,9 +5,9 @@ import CardPortfolio from '../CardPorfolio/CardPortfolio';
 
 import styles from './Portfolio.module.css';
 
-import energyJpg  from '../../pictures/img/energy.jpg';
-import energyAvif  from '../../pictures/img/energy.avif';
-import energyWebp  from '../../pictures/img/energy.webp';
+import mazyJpg  from '../../pictures/img/mazy.jpg';
+import mazyAvif  from '../../pictures/img/mazy.avif';
+import mazyWebp  from '../../pictures/img/mazy.webp';
 
 import eorumJpg  from '../../pictures/img/eorum.jpg';
 import eorumAvif  from '../../pictures/img/eorum.avif';
@@ -27,7 +27,7 @@ function Portfolio({link}) {
             <Fade bottom>
               <CardPortfolio technology='REACTJS - CSSModules - GIT' link='https://vendettamx.netlify.app/' title='Vendetta' type='Tienda de ropa para mujeres' imgJpg={vendettaJpg} imgWebp={vendettaWebp} imgAvif={vendettaAvif} />
               <CardPortfolio technology='REACTJS - TAILWIND - GIT ' link='https://eorum.netlify.app/' type='Ecommerce de ropa japonessa' title='Eorum' imgJpg={eorumJpg} imgWebp={eorumWebp} imgAvif={eorumAvif} />
-              <CardPortfolio technology='HTML - CSS - JS - GIT - GULP' link='https://energy-pro.netlify.app/' type='Landingpage de Paneles Solares' title='Energy' imgJpg={energyJpg} imgWebp={energyWebp} imgAvif={energyAvif} />
+              <CardPortfolio technology='REACTJS - CSSModules - GIT' link='https://mazy.netlify.app/' type='Web de vaporizador de comida' title='Mazy' imgJpg={mazyJpg} imgWebp={mazyWebp} imgAvif={mazyAvif} />
             </Fade>
 
         </div>

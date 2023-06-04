@@ -3,11 +3,8 @@ import React from 'react'
 
 import styles from './CardsSectionYT.module.css';
 
-import CardPrimary from '../CardPrimary/CardPrimary';
 import CardSecondary from '../CardSecondary/CardSecondary';
-import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import { Blog } from '../blog';
 
 
 
@@ -36,7 +33,7 @@ function CardsSectionYT({heading, link}) {
       setPosted(videos[0]?.snippet.publishTime);
       console.log(videos) */
     })
-  }, [])
+  }, [url])
   
 
   
@@ -51,14 +48,14 @@ function CardsSectionYT({heading, link}) {
       
       {
         videos?.map((video, index) => (
-        <a className={styles.link} key={index} title='youtube' target='_blank' href={`https://www.youtube.com/watch?v=${video.id.videoId}`}> 
+        <a className={styles.link} key={index} title='youtube' target='_blank' rel='noreferrer' href={`https://www.youtube.com/watch?v=${video.id.videoId}`}> 
           <CardSecondary imgJpg={video.snippet.thumbnails.medium.url} title={video.snippet.title} read='Reciente' posted={(video.snippet.publishTime).slice(0, 10)}/> 
         </a>
         ))
       }
 
 
-      <button type="button" className={`btn btn-dark`}><a title='Canal de youtube de fernando' target='_blank' href='https://www.youtube.com/@fernandopanduro' className={`${styles.btn}`}>Ver Mas</a></button>
+      <button type="button" className={`btn btn-dark`}><a title='Canal de youtube de fernando' target='_blank' rel='noreferrer' href='https://www.youtube.com/@fernandopanduro' className={`${styles.btn}`}>Ver Mas</a></button>
     </div>
   )
 }
