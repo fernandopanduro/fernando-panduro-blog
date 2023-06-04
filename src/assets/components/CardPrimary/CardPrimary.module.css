@@ -1,6 +1,6 @@
 .cardPrimary {
     margin: 0 0 var(--Margin-M) 0;
-    text-align: justify;
+    text-align: left;
     -webkit-box-shadow: 3px 4px 2px 2px rgba(0,0,0,0.19);
     -moz-box-shadow: 3px 4px 2px 2px rgba(0,0,0,0.19);
     box-shadow: 3px 4px 2px 2px rgba(0,0,0,0.19);
