@@ -54,5 +54,5 @@ function versionAvif(done) {
 exports.versionWebp = versionWebp;
 exports.versionAvif = versionAvif;
 exports.imageMin    = imageMin;
-exports.dev         = parallel(versionWebp, versionAvif)
+exports.dev         = parallel(versionWebp, versionAvif) // npx gulp dev
  

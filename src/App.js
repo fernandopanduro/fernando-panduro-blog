@@ -21,6 +21,7 @@ import LearnPromptingIntermedie from './assets/pages/Blogs/LearnPromptingInterme
 import LearnPromptingMusic from './assets/pages/Blogs/LearnPromptingMusic';
 import LearnPromptingDeteccionText from "./assets/pages/Blogs/LearnPromptingDeteccionText";
 import LearnPromptingCreateImages from './assets/pages/Blogs/LearnPromptingCreateImages';
+import SuperarAdicciones from './assets/pages/Blogs/SuperarAdicciones';
 
 function App() {
 
@@ -43,6 +44,7 @@ function App() {
           <Route path='/blogs/learnprompting/music' element={<LearnPromptingMusic />} />
           <Route path='/blogs/learnprompting/detecciontext' element={<LearnPromptingDeteccionText />} />
           <Route path='/blogs/learnprompting/createimages' element={<LearnPromptingCreateImages />} />
+          <Route path='/blogs/superaradicciones' element={<SuperarAdicciones />} />
           <Route path='/privacidad' element={<Privacidad />} />
           <Route path='/reembolso' element={<Reembolso />} />
           <Route path='/servicio' element={<Servicio />} />

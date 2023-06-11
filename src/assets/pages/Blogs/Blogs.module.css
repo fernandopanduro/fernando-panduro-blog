@@ -34,3 +34,14 @@
     width: 100%;
     margin: 0;
 }
+
+.blogs h3 {
+    margin-top: var(--Margin-M);
+    width: 100%;
+    text-align: left;
+}
+
+.blogs li {
+    width: 100%;
+    list-style:disc inside;
+}

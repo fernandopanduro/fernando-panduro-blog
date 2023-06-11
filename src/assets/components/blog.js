@@ -1,8 +1,18 @@
 export const Blog = [
     {
+        title: '¡Libérate de las adicciones y abraza la libertad!',
+        description: '¿Alguna vez te has preguntado cómo escapar de las garras de una adicción? ¡No te preocupes, estás en el lugar correcto! Aquí te presentamos algunos consejos entretenidos para dejar atrás esos hábitos destructivos y decirle adiós a las adicciones.',
+        posted: '10 JUNIO 2023',
+        read: '3 MIN LECTURA',
+        links: '/blogs/superaradicciones',
+        imgJpg: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/56a6d2986fb6edb31d9d479fb8590ab7a5110134/src/assets/pictures/img/moster-dalle.jpg',
+        imgAvif: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/56a6d2986fb6edb31d9d479fb8590ab7a5110134/src/assets/pictures/img/moster-dalle.avif',
+        imgWebp: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/56a6d2986fb6edb31d9d479fb8590ab7a5110134/src/assets/pictures/img/moster-dalle.webp',
+    },
+    {
         title: '¡Mira ma, sin manos 🖖! Cómo las IAs están cambiando el juego de la creación de imágenes',
         description: '¿Estás harto de pasar horas buscando la foto perfecta para tu perfil de Instagram? 😫 ¿Cansado de que tus fotos parezcan tomadas con una patata? 🍟 ¡No te preocupes! La inteligencia artificial está aquí para salvar el día (y tus fotos). En este ensayo, vamos a explorar cómo las IAs pueden generar imágenes impresionantes con solo unos pocos ajustes en el prompt. 🤯🖼️ Prepárate para decir adiós a tus días de parecer un troll en las redes sociales y hola a tu nueva imagen de perfil hiperrealista y asombrosa. 📷',
-        posted: '11 ABRIL 2022',
+        posted: '11 ABRIL 2023',
         read: '8 MIN LECTURA',
         links: '/blogs/learnprompting/createimages',
         imgJpg: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/56a6d2986fb6edb31d9d479fb8590ab7a5110134/src/assets/pictures/img/moster-dalle.jpg',
@@ -12,7 +22,7 @@ export const Blog = [
     {
         title: '¡Cuidado con el impostor! 😱 ¿Qué pasa cuando la IA es demasiado buena en la generación de textos? 🤖',
         description: '¿Estás cansado de encontrarte con textos que parecen escritos por humanos, pero en realidad son obra de inteligencias artificiales? 😩🤖 Bueno, ¡tienes un problema en común con investigadores, educadores y cualquier otra persona que se preocupe por la calidad de los contenidos que lee! 📚👀 La detección de textos generados por IA es un tema de importancia mundial, y aquí te contamos todo lo que necesitas saber. 💡💻',
-        posted: '9 ABRIL 2022',
+        posted: '9 ABRIL 2023',
         read: '4 MIN LECTURA',
         links: '/blogs/learnprompting/detecciontext',
         imgJpg: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/39af559cf185147a009f0bc762b673087399a224/src/assets/pictures/img/deteccion.jpg',
@@ -22,7 +32,7 @@ export const Blog = [
     {
         title: '🎶 El caos de los modelos de generación de música 🎹',
         description: 'Los modelos de generación de música 🎶 son la nueva moda en la industria musical 🎵. Pronto, los músicos serán reemplazados por robots 🤖 con mucho más talento que ellos. ¡Adiós, talento humano! 👋 ¡Hola, robótica musical! 🎹',
-        posted: '4 ABRIL 2022',
+        posted: '4 ABRIL 2023',
         read: '3 MIN LECTURA',
         links: '/blogs/learnprompting/music',
         imgJpg: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/39af559cf185147a009f0bc762b673087399a224/src/assets/pictures/img/edition-music.jpg',
@@ -32,7 +42,7 @@ export const Blog = [
     {
         title: '🤖 LLMs: ¿La solución a nuestros problemas o el comienzo del apocalipsis?',
         description: '🌎 ¡Bienvenidos al mundo de los modelos de lenguaje! Los LLM (por sus siglas en inglés, Language Models) son la nueva sensación en el mundo de la tecnología. A diferencia de los humanos, estos modelos no necesitan dormir, comer ni descansar. Pueden procesar información 24/7 sin parar. Entonces, ¿qué podría salir mal? 😬',
-        posted: '2 ABRIL 2022',
+        posted: '2 ABRIL 2023',
         read: '5 MIN LECTURA',
         links: '/blogs/learnprompting/intermedio',
         imgJpg: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/d7d8dccca6c49d04b9be5b3c2d99bda22e3d0ebe/src/assets/pictures/img/openai-white.jpg',
@@ -42,7 +52,7 @@ export const Blog = [
     {
         title: '🚀 Prompt Engineer: la habilidad del futuro en Inteligencia Artificial',
         description: '¡Perfecto! 🎉 Comencemos con los fundamentos de la Inteligencia Artificial (IA) 🧠. La IA es un algoritmo inteligente que piensa como los humanos 👥. Es útil para automatizar tareas repetitivas, pero muchas veces necesita que un humano la dirija y le dé instrucciones 🤖💭.',
-        posted: '1 ABRIL 2022',
+        posted: '1 ABRIL 2023',
         read: '4 MIN LECTURA',
         links: '/blogs/learnprompting/basics',
         imgJpg: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/d7d8dccca6c49d04b9be5b3c2d99bda22e3d0ebe/src/assets/pictures/img/phone-gpt2.jpg',
@@ -52,7 +62,7 @@ export const Blog = [
     {
         title: 'Convertir a las IAs en tus aliados y potenciar tu productividad 🚀💻',
         description: '¿Quieres saber cómo sacar el máximo provecho de tus chatbots y otras herramientas de Inteligencia Artificial? ¡El prompting es la clave! 🗝️ Descubre cómo utilizar esta técnica para inducir a tus IAs a actuar de manera efectiva y promover el éxito de tu negocio. 📈',
-        posted: '30 MAR 2022',
+        posted: '30 MAR 2023',
         read: '3 MIN LECTURA',
         links: '/blogs/learnprompting/introduccion',
         imgJpg: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/d7d8dccca6c49d04b9be5b3c2d99bda22e3d0ebe/src/assets/pictures/img/computer-coding2.jpg',
@@ -62,7 +72,7 @@ export const Blog = [
     {
         title: 'El secreto de la felicidad',
         description: 'Nunca busques la felicidad, ya que es una ilusion que se asoma a la lejania, pero en cambio el dolor y el sufrimiento son reales e inmediatos. Como dijo Aristoteles (Ética a Nicómaco); "No aspires al placer sino a la ausencia del  dolor"',
-        posted: '18 FEB 2022',
+        posted: '18 FEB 2023',
         read: '3 MIN LECTURA',
         links: '/blogs/el-secreto-de-la-felicidad',
         imgJpg: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/aae5c05924cc76cd96dcb62754017f00eca23f51/src/assets/pictures/img/felicidad1.jpg',
@@ -72,7 +82,7 @@ export const Blog = [
     {
         title: 'La respuesta a tus preguntas: ChatGPT',
         description: 'Imagina que estás en casa una noche, después de un día largo y agotador en el trabajo. Tienes una pregunta que te ronda la cabeza y no puedes encontrar la respuesta. ¿Qué haces en una situación así? Por supuesto, te metes en internet y empiezas a buscar. Pero hay tantos resultados y tantas páginas que es difícil saber por dónde empezar. ¿Te suena familiar?',
-        posted: '13 FEB 2022',
+        posted: '13 FEB 2023',
         read: '2 MIN LECTURA',
         links: '/blogs/chatgpt',
         imgJpg: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/f9e60decd88c08c44bf732242c32b1e66e76d1c4/src/assets/pictures/img/ChatGPT.jpg',
@@ -82,7 +92,7 @@ export const Blog = [
     {
         title: 'El Futuro del Entretenimiento y la Tecnología',
         description: 'La tecnología de realidad virtual (VR) y realidad aumentada (AR) está transformando la forma en que nos entretenemos y experimentamos el mundo que nos rodea. Desde videojuegos hasta la formación, estas tecnologías están ofreciendo experiencias únicas e inmersivas que no se pueden encontrar en ningún otro lugar.',
-        posted: '11 FEB 2022',
+        posted: '11 FEB 2023',
         read: '3 MIN LECTURA',
         links: '/blogs/realidadvirtual',
         imgJpg: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/f9e60decd88c08c44bf732242c32b1e66e76d1c4/src/assets/pictures/img/realidad-virtual-1.jpg',
