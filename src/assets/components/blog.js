@@ -5,9 +5,9 @@ export const Blog = [
         posted: '10 JUNIO 2023',
         read: '3 MIN LECTURA',
         links: '/blogs/superaradicciones',
-        imgJpg: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/56a6d2986fb6edb31d9d479fb8590ab7a5110134/src/assets/pictures/img/moster-dalle.jpg',
-        imgAvif: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/56a6d2986fb6edb31d9d479fb8590ab7a5110134/src/assets/pictures/img/moster-dalle.avif',
-        imgWebp: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/56a6d2986fb6edb31d9d479fb8590ab7a5110134/src/assets/pictures/img/moster-dalle.webp',
+        imgJpg: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/584e7212e39547991db938a22ecc5e05baddd97d/src/assets/pictures/img/adiccion-drogas2.jpg',
+        imgAvif: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/584e7212e39547991db938a22ecc5e05baddd97d/src/assets/pictures/img/adiccion-drogas2.avif',
+        imgWebp: 'https://raw.githubusercontent.com/fernandopanduro/fernando-panduro-blog/584e7212e39547991db938a22ecc5e05baddd97d/src/assets/pictures/img/adiccion-drogas2.webp',
     },
     {
         title: '¡Mira ma, sin manos 🖖! Cómo las IAs están cambiando el juego de la creación de imágenes',
