@@ -1,0 +1,69 @@
+.cardMe {
+    max-width: 27.5rem;
+    width: 90%;
+    color: white;
+    margin: 0 auto;
+    background-color: #ffffff16;
+    border-right: 1px solid rgba(255, 255, 255, .2);
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(.1875rem);
+    z-index: 15;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.headerContent {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: var(--Margin-S);
+}
+
+.title {
+    font-weight: 800;
+}
+
+.headerContent span {
+    color: gray;
+}
+
+.picture {
+    position: absolute;
+    top: -40%;
+    left: -2%;
+    width: 50%;
+    border-radius: 50%;
+    overflow: hidden;
+
+    @media (min-width: 425px) {
+        top: -100%;
+    }
+
+    @media (min-width: 768px) {
+        top: -120%;
+    }
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btn {
+    color: white;
+    text-align: center;
+    background-color: #333232;
+    border-radius: 5px;
+    width: 100%;
+    padding: var(--Margin-S);
+    display: flex;
+    gap: var(--Margin-S);
+    justify-content: center;
+}

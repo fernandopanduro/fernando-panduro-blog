@@ -16,6 +16,7 @@ import imgAvif3 from '../../pictures/img/adiccion-drogas.avif'
 
 
 function SuperarAdicciones() {
+  window.scrollTo(0,0)
   return (
     <div className={`${styles.containerBlogs} flex container`}>
 

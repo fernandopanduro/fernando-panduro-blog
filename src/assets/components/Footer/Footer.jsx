@@ -51,10 +51,10 @@ export function Footer() {
                     </div>
 
                     <ul className={`${styles.pagos}`}>
-                        <li><img src={visa} alt="Pago con Visa" /></li>
-                        <li><img src={amex} alt="Pago con Amex" /></li>
-                        <li><img src={masterCard} alt="Pago con Master Card" /></li>
-                        <li><img src={paypal} alt="Pago con Paypal" /></li>
+                        <li><img width="32" height="32" decoding="async" loading="lazy" src={visa} alt="Pago con Visa" /></li>
+                        <li><img width="32" height="32" decoding="async" loading="lazy" src={amex} alt="Pago con Amex" /></li>
+                        <li><img width="32" height="32" decoding="async" loading="lazy" src={masterCard} alt="Pago con Master Card" /></li>
+                        <li><img width="32" height="32" decoding="async" loading="lazy" src={paypal} alt="Pago con Paypal" /></li>
                     </ul>
 
                     <div>
