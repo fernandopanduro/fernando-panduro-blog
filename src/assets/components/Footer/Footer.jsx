@@ -1,4 +1,5 @@
-import { AiOutlineInstagram, AiFillGithub, AiFillYoutube, AiFillLinkedin } from 'react-icons/ai';
+import { AiOutlineInstagram, AiFillGithub, AiFillYoutube } from 'react-icons/ai';
+import {FaLinkedinIn} from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { Bar } from '../Bar/Bar';
 import { Fade } from 'react-reveal';
@@ -25,7 +26,7 @@ export function Footer() {
                     <ul className={styles.listSocialMedia}>
                         <li><a href="https://github.com/fernandopanduro" title="Github de Fernando Panduro" target="_blank" rel="noopener noreferrer"><AiFillGithub size={27} color='white'/></a></li>
                         <li><a href="https://www.youtube.com/@fernandopanduro/" title="Youtube de Fernando Panduro" target="_blank" rel="noopener noreferrer"><AiFillYoutube size={27} color='white'/></a></li>
-                        <li><a href="https://www.linkedin.com/in/fernando-panduro/" title="Linkedin de Fernando Panduro" target="_blank" rel="noopener noreferrer"><AiFillLinkedin size={27} color='white'/></a></li>
+                        <li><a href="https://www.linkedin.com/in/fernando-panduro/" title="Linkedin de Fernando Panduro" target="_blank" rel="noopener noreferrer"><FaLinkedinIn size={27} color='white'/></a></li>
                         <li><a href="http://instagram.com/fernandpha" title="Instagram de Fernando Panduro" target="_blank" rel="noopener noreferrer"><AiOutlineInstagram size={27} color='white'/></a></li>
                     </ul>
 
@@ -33,9 +34,9 @@ export function Footer() {
                         <h4 className={`${styles.subtitle}`}>Menu Principal</h4>
                         <Bar />
                         <ul className={`${styles.list} flex`}>    
-                            <li><Link className={`${styles.listItem}`} to='/'>Inicio</Link></li>
+                            <li><Link className={`${styles.listItem}`} to='/'>Home</Link></li>
                             <li><Link className={`${styles.listItem}`} to='/blogs'>Blogs</Link></li>
-                            <li><Link className={`${styles.listItem}`} to='/tienda'>Productos</Link></li>
+                            <li><Link className={`${styles.listItem}`} to='/tienda'>Tienda</Link></li>
                             <li><Link className={`${styles.listItem}`} to='/fernando-panduro'>Conoceme</Link></li>
                         </ul>
                     </div>
@@ -58,7 +59,7 @@ export function Footer() {
                     </ul>
 
                     <div>
-                        <p>Hugo Fernando Garcia Panduro es un creador de contenido mexicano nacido en Culiacán, Sinaloa.</p>
+                        <p>Hugo Fernando Garcia Panduro es un Ingeniero de software mexicano nacido en Culiacán, Sinaloa.</p>
                         <Bar /> 
                     </div>
 

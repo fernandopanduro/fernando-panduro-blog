@@ -17,7 +17,7 @@ function CardSecondary({title, posted, read, imgJpg = img, imgAvif, imgWebp}) {
         </picture>
 
         <div className={`${styles.details} flex`}>
-          <h5 className={`${styles.title} text-uppercase`}>{title}</h5>
+          <h4 className={`${styles.title} text-uppercase`}>{title}</h4>
           <span className={`${styles.subtitle} text-uppercase text-secondary`}>{posted} - {read}</span>
         </div>
       </Fade>

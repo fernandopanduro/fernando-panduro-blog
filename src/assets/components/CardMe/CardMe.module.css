@@ -41,6 +41,10 @@
     border-radius: 50%;
     overflow: hidden;
 
+    @media (min-width: 377px) {
+        top: -100%;
+    }
+
     @media (min-width: 425px) {
         top: -100%;
     }
@@ -66,4 +70,9 @@
     display: flex;
     gap: var(--Margin-S);
     justify-content: center;
+    transition: .2s linear background-color;
+}
+
+.btn:hover {
+    background-color: #252525;
 }

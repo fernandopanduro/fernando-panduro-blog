@@ -42,7 +42,7 @@ function Conoceme() {
   return (
     <div className={`${styles.containerConoceme} flex`}>
         <Helmet>
-          <title>Quien es Fernando Panduro?</title>
+          <title>¿Quien es Fernando Panduro? | Fernando Panduro</title>
           <meta property="og:type" content="website" />
           <meta property="og:title" content="Quién es Fernando Panduro" />
           <meta property="og:description" content="Fernando Panduro, nacido el 3 de junio en Culiacán, Sinaloa, es un autodidacta apasionado de la tecnología y los proyectos sociales." />
@@ -70,7 +70,7 @@ function Conoceme() {
 
         </Helmet>
         <div className={`${styles.conoceme} container`}>
-            <h2 className={`${styles.title}`}>Quien es Fernando Panduro?</h2>
+            <h2 className={`${styles.title}`}>¿Quien es Fernando Panduro?</h2>
 
             <picture className={`${styles.picture}`}>
               <source srcSet={imgAvif5} type='image/avif'/>
