@@ -22,6 +22,7 @@ import imgAvif4 from '../../pictures/img/aliens-dalle.avif';
 import imgJpg5 from '../../pictures/img/ia-shipost.jpeg';
 import imgWebp5 from '../../pictures/img/ia-shipost.webp';
 import imgAvif5 from '../../pictures/img/ia-shipost.avif';
+import Share from '../../components/Share/Share';
 
 export default function LearnPromptingCreateImages() {
   window.scrollTo(0,0)
@@ -34,6 +35,7 @@ export default function LearnPromptingCreateImages() {
         </Helmet>
         <div className={`${styles.blogs} flex`}>
             <h2 className='text-center'>¡Mira ma, sin manos 🖖! Cómo las IAs están cambiando el juego de la creación de imágenes</h2>
+            <Share />
             <Bar />
 
             <picture className={`${styles.picture}`}>

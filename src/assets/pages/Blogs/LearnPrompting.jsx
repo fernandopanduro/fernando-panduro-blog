@@ -15,6 +15,7 @@ import imgJpg3 from '../../pictures/img/woman-coding.jpg';
 import imgAvif3 from '../../pictures/img/woman-coding.avif';
 import imgWebp3 from '../../pictures/img/woman-coding.webp';
 import { Helmet } from 'react-helmet';
+import Share from '../../components/Share/Share';
 
 export default function LearnPrompting() {
   window.scrollTo(0,0)
@@ -26,7 +27,9 @@ export default function LearnPrompting() {
       </Helmet>
 
         <div className={`${styles.blogs} flex`}>
+            
             <h2 className='text-center'>Convertir a las IAs en tus aliados y potenciar tu productividad 🚀💻</h2>
+            <Share />
             <Bar />
 
             <picture className={`${styles.picture}`}>

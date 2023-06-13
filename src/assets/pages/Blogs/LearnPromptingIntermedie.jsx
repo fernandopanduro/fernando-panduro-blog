@@ -14,6 +14,7 @@ import imgAvif2 from '../../pictures/img/ChatGPT.avif';
 import imgJpg3 from '../../pictures/img/phone-gpt2.jpg';
 import imgWebp3 from '../../pictures/img/phone-gpt2.webp';
 import imgAvif3 from '../../pictures/img/phone-gpt2.avif';
+import Share from '../../components/Share/Share';
 
 export default function LearnPromptingIntermedie() {
   window.scrollTo(0,0)
@@ -24,7 +25,9 @@ export default function LearnPromptingIntermedie() {
             <meta name="description" content='🌎 ¡Bienvenidos al mundo de los modelos de lenguaje! Los LLM (por sus siglas en inglés, Language Models) son la nueva sensación en el mundo de la tecnología. A diferencia de los humanos, estos modelos no necesitan dormir, comer ni descansar. Pueden procesar información 24/7 sin parar. Entonces, ¿qué podría salir mal? 😬' />
         </Helmet>
         <div className={`${styles.blogs} flex`}>
+
             <h2 className='text-center'>🤖 LLMs: ¿La solución a nuestros problemas o el comienzo del apocalipsis?</h2>
+            <Share />
             <Bar />
 
             <picture className={`${styles.picture}`}>

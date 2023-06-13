@@ -23,6 +23,7 @@ import imgJpg5 from '../../pictures/img/ejercicio1.jpg';
 import imgAvif5 from '../../pictures/img/ejercicio1.avif';
 import imgWebp5 from '../../pictures/img/ejercicio1.webp';
 import { Helmet } from 'react-helmet';
+import Share from '../../components/Share/Share';
 
 function ComoSerFeliz() {
   window.scrollTo(0,0)
@@ -34,6 +35,7 @@ function ComoSerFeliz() {
       </Helmet>
       <div className={`${styles.blogs} flex`}>
           <h2 className='text-center'>El secreto de la felicidad</h2>
+          <Share />
           <Bar />
 
           <picture className={`${styles.picture}`}>

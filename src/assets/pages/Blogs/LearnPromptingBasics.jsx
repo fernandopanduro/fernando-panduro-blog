@@ -19,6 +19,7 @@ import imgJpg5 from '../../pictures/img/phone-gpt2.jpg';
 import imgAvif5 from '../../pictures/img/phone-gpt2.avif';
 import imgWebp5 from '../../pictures/img/phone-gpt2.webp';
 import { Helmet } from 'react-helmet';
+import Share from '../../components/Share/Share';
 
 export default function LearnPromptingBasics() {
   window.scrollTo(0,0)
@@ -29,7 +30,9 @@ export default function LearnPromptingBasics() {
         <meta name="description" content='Una forma de instruir a una IA para que realice una tarea es a través del proceso de Promoting 🚀. El Promoting es simplemente darle instrucciones a la IA para que realice una tarea específica. Un ejemplo de Promoting es asignarle un rol a la IA, por ejemplo, "Eres un médico" o "Eres un abogado" 👨‍⚕️👨‍⚖️' />
       </Helmet>
         <div className={`${styles.blogs} flex`}>
+            
             <h2 className='text-center'>🚀 Prompt Engineer: la habilidad del futuro en Inteligencia Artificial</h2>
+            <Share />
             <Bar />
 
             <picture className={`${styles.picture}`}>

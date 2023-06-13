@@ -18,6 +18,7 @@ import imgAvif3 from '../../pictures/img/edition-music2.avif';
 import imgJpg4 from '../../pictures/img/listenig-music.jpg';
 import imgWebp4 from '../../pictures/img/listenig-music.webp';
 import imgAvif4 from '../../pictures/img/listenig-music.avif'; 
+import Share from '../../components/Share/Share';
 
 export default function LearnPromptingMusic() {
   window.scrollTo(0,0)
@@ -29,6 +30,7 @@ export default function LearnPromptingMusic() {
         </Helmet>
         <div className={`${styles.blogs} flex`}>
             <h2 className='text-center'>🎶 El caos de los modelos de generación de música 🎹</h2>
+            <Share />
             <Bar />
 
             <picture className={`${styles.picture}`}>

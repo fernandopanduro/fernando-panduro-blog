@@ -14,6 +14,7 @@ import imgAvif2 from '../../pictures/img/segurity.avif';
 import imgJpg3 from '../../pictures/img/phone-gpt.jpg';
 import imgWebp3 from '../../pictures/img/phone-gpt.webp';
 import imgAvif3 from '../../pictures/img/phone-gpt.avif';
+import Share from '../../components/Share/Share';
 
 export default function LearnPromptingDeteccionText() {
   window.scrollTo(0,0)
@@ -24,7 +25,9 @@ export default function LearnPromptingDeteccionText() {
         <meta name="description" content='¿Estás cansado de encontrarte con textos que parecen escritos por humanos, pero en realidad son obra de inteligencias artificiales? 😩🤖 Bueno, ¡tienes un problema en común con investigadores, educadores y cualquier otra persona que se preocupe por la calidad de los contenidos que lee! 📚👀 La detección de textos generados por IA es un tema de importancia mundial, y aquí te contamos todo lo que necesitas saber. 💡💻' />
         </Helmet>
         <div className={`${styles.blogs} flex`}>
+            
             <h2 className='text-center'>¡Cuidado con el impostor! 😱 ¿Qué pasa cuando la IA es demasiado buena en la generación de textos? 🤖</h2>
+            <Share />
             <Bar />
 
             <picture className={`${styles.picture}`}>

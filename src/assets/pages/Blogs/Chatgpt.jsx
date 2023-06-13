@@ -15,6 +15,7 @@ import imgJpg3 from '../../pictures/img/openAI.jpg';
 import imgAvif3 from '../../pictures/img/openAI.avif';
 import imgWebp3 from '../../pictures/img/openAI.webp';
 import { Helmet } from 'react-helmet';
+import Share from '../../components/Share/Share';
 
 function chatgpt() {
   window.scrollTo(0,0)
@@ -27,6 +28,7 @@ function chatgpt() {
       </Helmet>
       <div className={`${styles.blogs} flex`}>
           <h2 className='text-center'>La respuesta a tus preguntas: ChatGPT</h2>
+          <Share />
           <Bar />
 
           <picture className={`${styles.picture}`}>

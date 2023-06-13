@@ -19,6 +19,7 @@ import imgJpg4 from '../../pictures/img/realidad-virtual-4.jpg';
 import imgAvif4 from '../../pictures/img/realidad-virtual-4.avif';
 import imgWebp4 from '../../pictures/img/realidad-virtual-4.webp';
 import { Helmet } from 'react-helmet';
+import Share from '../../components/Share/Share';
 
 function RealidadVirtual() {
   window.scrollTo(0,0)
@@ -30,6 +31,7 @@ function RealidadVirtual() {
       </Helmet>
       <div className={`${styles.blogs} flex`}>
           <h2 className='text-center'>La Realidad Virtual y Aumentada: El Futuro de la Entretención y la Tecnología</h2>
+          <Share />
           <Bar />
 
           <picture className={`${styles.picture}`}>
