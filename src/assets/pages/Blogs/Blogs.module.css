@@ -35,6 +35,10 @@
     margin: 0;
 }
 
+.blogs h2 {
+    font-weight: 800;
+}
+
 .blogs h3 {
     margin-top: var(--Margin-M);
     width: 100%;

@@ -6,7 +6,7 @@ import img from '../../pictures/img/img.jpg';
 import { Fade } from 'react-reveal';
 
 
-function CardSecondary({title, posted, read, imgJpg = img, imgAvif, imgWebp}) {
+function CardSecondary({title, posted, read, imgJpg = img, imgAvif, imgWebp, description}) {
   return (
     <div className={`${styles.cardSecondary} flex rounded`}>
       <Fade bottom>
@@ -17,8 +17,9 @@ function CardSecondary({title, posted, read, imgJpg = img, imgAvif, imgWebp}) {
         </picture>
 
         <div className={`${styles.details} flex`}>
-          <h4 className={`${styles.title} text-uppercase`}>{title}</h4>
           <span className={`${styles.subtitle} text-uppercase text-secondary`}>{posted} - {read}</span>
+          <h4 className={`${styles.title} text-uppercase`}>{title}</h4>
+          <p className={`text-secondary`}>{description}</p>
         </div>
       </Fade>
 

@@ -13,10 +13,12 @@ import imgAvif2 from '../../pictures/img/adiccion.avif'
 import imgJpg3 from '../../pictures/img/adiccion-drogas.jpg'
 import imgWebp3 from '../../pictures/img/adiccion-drogas.webp'
 import imgAvif3 from '../../pictures/img/adiccion-drogas.avif'
+import Share from '../../components/Share/Share'
 
 
 function SuperarAdicciones() {
   window.scrollTo(0,0)
+  console.log(window.location.pathname)
   return (
     <div className={`${styles.containerBlogs} flex container`}>
 
@@ -27,6 +29,7 @@ function SuperarAdicciones() {
 
         <div className={`${styles.blogs} flex`}>
           <h2 className='text-center'>¡Libérate de las adicciones y abraza la libertad!</h2>
+          <Share />
           <Bar />
 
           <picture className={`${styles.picture}`}>
@@ -39,6 +42,7 @@ function SuperarAdicciones() {
           <p>¡No te pierdas de nada al dejar la adicción!</p>
           <p>¿Recuerdas esa sensación de no poder disfrutar de nada si no tenías tu adicción cerca? Bueno, ¡olvídalo! Al liberarte de esa dependencia, todas las conexiones neuronales asociadas a la dopamina se desvanecerán gradualmente. Serás libre y podrás disfrutar de la vida sin ataduras.</p>
           <p>No envidies a los adictos. Ellos se vuelven cada día más miserables, mientras tú te vuelves cada día más libre. ¡Ten pena por ellos! Después de todo, ¡necesitan tu pena para darse cuenta de lo que están perdiendo!</p>
+          
           <picture className={`${styles.picture}`}>
               <source srcSet={imgAvif2} type='image/avif'/>
               <source srcSet={imgWebp2} type='image/webp'/>

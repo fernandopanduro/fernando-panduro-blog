@@ -8,13 +8,12 @@ import {CardProduct} from '../../components/CardProduct/CardProduct';
 import {IoPricetags} from 'react-icons/io5';
 import {FaEye} from 'react-icons/fa';
 import { BiShoppingBag } from 'react-icons/bi'
-import { FiShare2 } from 'react-icons/fi';
-import { BsFacebook, BsTwitter, BsPinterest, BsWhatsapp,  } from 'react-icons/bs';
 
 import visa from '../../pictures/img/visa.png';
 import amex from '../../pictures/img/amex.png';
 import paypal from '../../pictures/img/paypal.png';
 import masterCard from '../../pictures/img/master-card.png';
+import Share from '../../components/Share/Share';
 
 export const ProductDetails = () => {
 
@@ -69,10 +68,10 @@ export const ProductDetails = () => {
 
                 <div className={`${styles.box} ${styles.pagosTarjeta} rounded`}>
                     <ul className={`${styles.pagos}`}>
-                        <li><img src={visa} alt="Pago con Visa" /></li>
-                        <li><img src={amex} alt="Pago con Amex" /></li>
-                        <li><img src={masterCard} alt="Pago con Master Card" /></li>
-                        <li><img src={paypal} alt="Pago con Paypal" /></li>
+                        <li><img loading='lazy' width='32' height='32' src={visa} alt="Pago con Visa" /></li>
+                        <li><img loading='lazy' width='32' height='32' src={amex} alt="Pago con Amex" /></li>
+                        <li><img loading='lazy' width='32' height='32' src={masterCard} alt="Pago con Master Card" /></li>
+                        <li><img loading='lazy' width='32' height='32' src={paypal} alt="Pago con Paypal" /></li>
                     </ul>
                     <span>Pago Seguro Garantizado</span>
                 </div>
@@ -81,15 +80,7 @@ export const ProductDetails = () => {
                     <span> <FaEye size={20} /> <strong>{numeroVistas} personas</strong> estan viendo este producto</span>
                 </div>
 
-                <div className={`${styles.shares}`}>
-                    <span><FiShare2 size={21} /> Compartir</span>
-                    <ul className={`${styles.sharesList}`}>
-                        <li className={`${styles.sharesItem}`}><a target='_blank' title='Compartir por Facebook' href='https://www.facebook.com/sharer/sharer.php?u=https://ferpanduro.com' className={`${styles.sharesBtn}`}><BsFacebook size={21} /></a></li>
-                        <li className={`${styles.sharesItem}`}><a target='_blank' title='Compartir por Twitter' href='https://www.twitter.com/intent/tweet?text=Fernando-Panduro&url=www.ferpanduro.com' className={`${styles.sharesBtn}`}><BsTwitter size={21} /></a></li>
-                        <li className={`${styles.sharesItem}`}><a target='_blank' title='Compartir por Pinterest' href='https://www.pinterest.com/pin/find/?url=https://ferpanduro.com' className={`${styles.sharesBtn}`}><BsPinterest size={21} /></a></li>
-                        <li className={`${styles.sharesItem}`}><a target='_blank' title='Compartir por Whatsapp' href='https://api.whatsapp.com/send?text=www.ferpanduro.com' className={`${styles.sharesBtn}`}><BsWhatsapp size={21} /></a></li>
-                    </ul>
-                </div>
+                <Share />
 
                 <Bar />
 
