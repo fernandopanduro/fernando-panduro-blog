@@ -16,7 +16,7 @@ export default function Header() {
       <Fade top>  
         <header className={`${styles.header} flex container`}>
           <Link to='/'><h1 className={`${styles.title} h3`}>Fernando Panduro</h1></Link>
-            <button onClick={() => setIsOpen(!isOpen)} className={`${styles.barsMenu} flex`}>
+            <button aria-label="Menu" name='Menu' title='Menu' onClick={() => setIsOpen(!isOpen)} className={`${styles.barsMenu} flex`}>
                 <div className={`${styles.barMenu1} ${isOpen && styles.activebarMenu1}`}></div>
                 <div className={`${styles.barMenu2} ${isOpen && styles.activebarMenu2}`}></div>
                 <div className={`${styles.barMenu3} ${isOpen && styles.activebarMenu3}`}></div>
@@ -26,7 +26,7 @@ export default function Header() {
                 <li className={styles.listItem}><Link className='text-white' to='/'>Home</Link></li>
                 <li className={styles.listItem}><Link className='text-white' to='/blogs'>Blogs</Link></li>
                 <li className={styles.listItem}><Link className='text-white' to='/portfolio'>Portafolio</Link></li>
-                <li className={styles.listItem}><Link className='text-white' to='/tienda'>Tienda</Link></li>
+                {/* <li className={styles.listItem}><Link className='text-white' to='/tienda'>Tienda</Link></li> */}
                 <li className={styles.listItem}><Link className='text-white' to='/fernando-panduro'>Conoceme</Link></li>
               </ul>
             </nav>      
@@ -36,7 +36,7 @@ export default function Header() {
           <li className={styles.listItemMobile}><Link className='text-white' to='/'>Home</Link></li>
           <li className={styles.listItemMobile}><Link className='text-white' to='/blogs'>Blogs</Link></li>
           <li className={styles.listItemMobile}><Link className='text-white' to='/portfolio'>Portafolio</Link></li>
-          <li className={styles.listItemMobile}><Link className='text-white' to='/tienda'>Tienda</Link></li>
+          {/* <li className={styles.listItemMobile}><Link className='text-white' to='/tienda'>Tienda</Link></li> */}
           <li className={styles.listItemMobile}><Link className='text-white' to='/fernando-panduro'>Conoceme</Link></li>
         </ul>
         <ul className={`container ${styles.listSocialMedia}`}>

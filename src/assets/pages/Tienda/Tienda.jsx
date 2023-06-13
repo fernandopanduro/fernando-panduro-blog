@@ -7,10 +7,10 @@ export const Tienda = () => {
 
 window.scrollTo(0,0)
 
-const url = 'https://api.printful.com/stores';
-const token = 'BV2u3Cjuv3KHdSUtvXptB24FQSMRRrBfxhHXLmPn';
+/* const url = 'https://api.printful.com/stores';
+const token = 'BV2u3Cjuv3KHdSUtvXptB24FQSMRRrBfxhHXLmPn'; */
 
-useEffect(() => {
+/* useEffect(() => {
   fetch(url, {
     method: 'GET',
     headers: {
@@ -32,9 +32,7 @@ useEffect(() => {
     // Manejar errores
     console.error(error);
   });
-
-  
-}, [url])
+}, [url]) */
 
 
 
