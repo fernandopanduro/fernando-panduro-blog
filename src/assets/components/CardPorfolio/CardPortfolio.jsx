@@ -11,7 +11,7 @@ function CardPortfolio({imgAvif, imgJpg, imgWebp, title, link, type, technology}
             <picture className={styles.picture}>
                 <source srcSet={imgAvif} type='image/avif'/>
                 <source srcSet={imgWebp} type='image/webp'/>
-                <img className={`${styles.img}`} loading='lazy' width='200' height='300' src={imgJpg} alt={title} />
+                <img className={`rounded ${styles.img}`} loading='lazy' width='200' height='300' src={imgJpg} alt={title} />
             </picture>
             <div className={`${styles.contenido} rounded`}>
               <h3 className={styles.title}>{title}</h3>

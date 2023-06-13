@@ -2,9 +2,7 @@
     flex-direction: row;
     width: 100%;
     margin: 0 0 var(--Margin-M) 0;
-    -webkit-box-shadow: 3px 4px 2px 2px rgba(0,0,0,0.19);
-    -moz-box-shadow: 3px 4px 2px 2px rgba(0,0,0,0.19);
-    box-shadow: 3px 4px 2px 2px rgba(0,0,0,0.19);
+    background-color: #edeff1;
     padding: var(--Margin-S);  
     transition: .3s;
     overflow: hidden;
@@ -37,7 +35,6 @@
     align-items: flex-start;
     justify-content: flex-start;
     margin-left: var(--Margin-S);
-    background-color: var(--Color-ligth);
     padding: var(--Margin-S);
     position: relative;
 }

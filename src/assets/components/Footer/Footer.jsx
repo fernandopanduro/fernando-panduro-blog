@@ -36,6 +36,7 @@ export function Footer() {
                         <ul className={`${styles.list} flex`}>    
                             <li><Link className={`${styles.listItem}`} to='/'>Home</Link></li>
                             <li><Link className={`${styles.listItem}`} to='/blogs'>Blogs</Link></li>
+                            <li><Link className={`${styles.listItem}`} to='/portfolio'>Portafolio</Link></li>
                             <li><Link className={`${styles.listItem}`} to='/tienda'>Tienda</Link></li>
                             <li><Link className={`${styles.listItem}`} to='/fernando-panduro'>Conoceme</Link></li>
                         </ul>

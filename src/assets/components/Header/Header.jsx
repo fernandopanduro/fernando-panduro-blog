@@ -25,6 +25,7 @@ export default function Header() {
               <ul className={`flex flex-row gap-4 ${styles.list}`}>
                 <li className={styles.listItem}><Link className='text-white' to='/'>Home</Link></li>
                 <li className={styles.listItem}><Link className='text-white' to='/blogs'>Blogs</Link></li>
+                <li className={styles.listItem}><Link className='text-white' to='/portfolio'>Portafolio</Link></li>
                 <li className={styles.listItem}><Link className='text-white' to='/tienda'>Tienda</Link></li>
                 <li className={styles.listItem}><Link className='text-white' to='/fernando-panduro'>Conoceme</Link></li>
               </ul>
@@ -34,6 +35,7 @@ export default function Header() {
         <ul className={`container ${styles.listMobile}`}>
           <li className={styles.listItemMobile}><Link className='text-white' to='/'>Home</Link></li>
           <li className={styles.listItemMobile}><Link className='text-white' to='/blogs'>Blogs</Link></li>
+          <li className={styles.listItemMobile}><Link className='text-white' to='/portfolio'>Portafolio</Link></li>
           <li className={styles.listItemMobile}><Link className='text-white' to='/tienda'>Tienda</Link></li>
           <li className={styles.listItemMobile}><Link className='text-white' to='/fernando-panduro'>Conoceme</Link></li>
         </ul>

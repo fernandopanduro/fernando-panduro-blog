@@ -1,9 +1,7 @@
 .cardPortfolio {
     width: 100%;
     margin-bottom: var(--Margin-M);
-    -webkit-box-shadow: 3px 4px 2px 2px rgba(0,0,0,0.19);
-    -moz-box-shadow: 3px 4px 2px 2px rgba(0,0,0,0.19);
-    box-shadow: 3px 4px 2px 2px rgba(0,0,0,0.19);
+    background-color: #edeff1;
     padding: var(--Margin-S);  
     transition: .3s;
     overflow: hidden;
@@ -29,7 +27,6 @@
 }
 
 .contenido {
-    background-color: var(--Color-ligth);
     padding: var(--Margin-S);
     position: relative;
     z-index: 1;
