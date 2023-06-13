@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import {IoLocationOutline} from 'react-icons/io5'
 import { AiOutlineInstagram, AiFillGithub, AiFillYoutube } from 'react-icons/ai';
 import {FaLinkedinIn} from 'react-icons/fa';
-import  imgJpg from '../../pictures/img/foto-principal.jpg'
+import  imgJpg from '../../pictures/img/foto-principal.jpeg'
 import  imgWebp from '../../pictures/img/foto-principal.webp'
 import  imgAvif from '../../pictures/img/foto-principal.avif'
 

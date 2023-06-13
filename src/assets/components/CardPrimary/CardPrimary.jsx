@@ -5,7 +5,7 @@ import { Bar } from '../Bar/Bar';
 import { Fade } from 'react-reveal';
 import { MdVerified } from 'react-icons/md'
 
-import perfil from '../../pictures/img/perfil.jpg';
+import perfil from '../../pictures/img/perfil.jpeg';
 import perfilAvif from '../../pictures/img/perfil.avif';
 import perfilWebp from '../../pictures/img/perfil.webp';
 

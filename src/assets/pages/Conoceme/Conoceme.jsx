@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import styles from './Conoceme.module.css';
 
-import imgJpg from '../../pictures/img/foto-principal.jpg';
+import imgJpg from '../../pictures/img/foto-principal.jpeg';
 import imgAvif from '../../pictures/img/foto-principal.avif';
 import imgWebp from '../../pictures/img/foto-principal.webp';
 

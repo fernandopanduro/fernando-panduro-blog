@@ -4,6 +4,7 @@ import styles from './CardPortfolio.module.css';
 import { Bar } from '../Bar/Bar';
 
 function CardPortfolio({imgAvif, imgJpg, imgWebp, title, link, type, technology}) {
+  const technologys = technology.split(' ');
   return (
     <div className={`${styles.cardPortfolio} rounded`}>
         <a href={link} title={title} target="_blank" rel="noopener noreferrer">
@@ -15,7 +16,9 @@ function CardPortfolio({imgAvif, imgJpg, imgWebp, title, link, type, technology}
             <div className={`${styles.contenido} rounded`}>
               <h3 className={styles.title}>{title}</h3>
               <p className='text-secondary'>{type}</p>
-              <p className='text-secondary'>{technology}</p>
+              <span className={styles.technologys}>
+                {technologys.map(element => <span className={styles.technology}>{element}</span>)}
+              </span>
               <Bar />
             </div>
         </a>

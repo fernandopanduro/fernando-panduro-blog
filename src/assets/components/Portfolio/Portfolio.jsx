@@ -25,9 +25,9 @@ function Portfolio({link}) {
         <div className={`${styles.portfolio} container`}>
 
             <Fade bottom>
-              <CardPortfolio technology='REACTJS - CSSModules - GIT' link='https://vendettamx.netlify.app/' title='Vendetta' type='Tienda de ropa para mujeres' imgJpg={vendettaJpg} imgWebp={vendettaWebp} imgAvif={vendettaAvif} />
-              <CardPortfolio technology='REACTJS - TAILWIND - GIT ' link='https://eorum.netlify.app/' type='Ecommerce de ropa japonessa' title='Eorum' imgJpg={eorumJpg} imgWebp={eorumWebp} imgAvif={eorumAvif} />
-              <CardPortfolio technology='REACTJS - CSSModules - GIT' link='https://mazy.netlify.app/' type='Web de vaporizador de comida' title='Mazy' imgJpg={mazyJpg} imgWebp={mazyWebp} imgAvif={mazyAvif} />
+              <CardPortfolio technology='REACTJS CSSModules GIT' link='https://vendettamx.netlify.app/' title='Vendetta' type='Tienda de ropa para mujeres' imgJpg={vendettaJpg} imgWebp={vendettaWebp} imgAvif={vendettaAvif} />
+              <CardPortfolio technology='REACTJS TAILWIND GIT' link='https://eorum.netlify.app/' type='Ecommerce de ropa japonessa' title='Eorum' imgJpg={eorumJpg} imgWebp={eorumWebp} imgAvif={eorumAvif} />
+              <CardPortfolio technology='REACTJS CSSModules GIT' link='https://mazy.netlify.app/' type='Web de vaporizador de comida' title='Mazy' imgJpg={mazyJpg} imgWebp={mazyWebp} imgAvif={mazyAvif} />
             </Fade>
 
         </div>
