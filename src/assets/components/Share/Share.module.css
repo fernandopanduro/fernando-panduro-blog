@@ -13,9 +13,96 @@
 
 .sharesItem {
     list-style: none !important;
+    cursor: pointer;
 }
 
 .sharesBtn {
     border: none;
     cursor: pointer;
 }
+
+/* Modal */
+
+.modal {
+    position: absolute;
+    height: max-content;
+    background-color: var(--Color-ligth);
+    max-width: 90%;
+    width: 520px;
+    padding: var(--Margin-M);
+    display: flex;
+    flex-direction: column;
+    gap: var(--Margin-S);
+}
+
+.shareText {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.close {
+    cursor: pointer;
+    opacity: .5;
+}
+
+.label {
+    font-weight: 600;
+}
+
+.inputContainer {
+    padding: var(--Margin-S);
+    width: 100%;
+    border-radius: .3125rem;
+    border: 1px solid #33333346;
+    display: flex;
+    gap: var(--Margin-S);
+    align-items: center;
+    justify-content: space-between;
+    transition: .3s linear border;
+}
+
+.inputContainer:hover {
+    border: 1px solid #333333;
+}
+
+.input {
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.copy {
+    cursor: pointer;
+}
+
+/* Tooltip */
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
