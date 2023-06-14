@@ -1,5 +1,5 @@
 import { FiShare2 } from 'react-icons/fi';
-import { BsFacebook, BsTwitter, BsPinterest, BsWhatsapp,  } from 'react-icons/bs';
+import { BsFacebook, BsTwitter, BsWhatsapp,  } from 'react-icons/bs';
 import { FaCopy } from 'react-icons/fa'
 import { AiOutlineClose } from 'react-icons/ai'
 import styles from './Share.module.css'
@@ -41,7 +41,6 @@ function Share() {
         <ul className={`${styles.sharesList}`}>
             <li className={`${styles.sharesItem}`}><a target='_blank' title='Compartir por Facebook' href={`https://www.facebook.com/sharer/sharer.php?u=https://ferpanduro.com${pathname}`} className={`${styles.sharesBtn}`} rel='noopener noreferrer'><BsFacebook size={21} /></a></li>
             <li className={`${styles.sharesItem}`}><a target='_blank' title='Compartir por Twitter' href={`https://www.twitter.com/intent/tweet?text=Fernando-Panduro&url=www.ferpanduro.com${pathname}`} className={`${styles.sharesBtn}`} rel='noopener noreferrer'><BsTwitter size={21} /></a></li>
-            <li className={`${styles.sharesItem}`}><a target='_blank' title='Compartir por Pinterest' href={`https://www.pinterest.com/pin/find/?url=https://ferpanduro.com${pathname}`} className={`${styles.sharesBtn}`} rel='noopener noreferrer'><BsPinterest size={21} /></a></li>
             <li className={`${styles.sharesItem}`}><a target='_blank' title='Compartir por Whatsapp' href={`https://api.whatsapp.com/send?text=www.ferpanduro.com${pathname}`} className={`${styles.sharesBtn}`} rel='noopener noreferrer'><BsWhatsapp size={21} /></a></li>
             <li className={`${styles.sharesItem}`}><FaCopy title='Copiar enlace' onClick={() => setOpenModal(!openModal)} size={21} /></li>
         </ul>

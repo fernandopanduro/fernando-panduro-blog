@@ -33,7 +33,6 @@ function CardPrimary({posted, read, description, title, imgAvif, imgWebp, imgJpg
               <div className={styles.gradient}></div>
               <p className={`text-secondary`}>{newDescription}. . .</p>
             </div>
-            <p className={`text-secondary mb-3`}>Leer mas...</p>
           </div>
 
 
