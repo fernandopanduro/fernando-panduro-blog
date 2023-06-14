@@ -27,24 +27,25 @@ export function Home() {
     if (loading) {
         setTimeout(() => {
             setLoading(false);
-        }, 2000)
+        }, 1000)
     }
 
   window.scrollTo(0,0)
     return (
-        !loading ? (
-        <div className={styles.home}>
-            <Helmet><title>Fernando Panduro</title></Helmet>
-            <Banner />
-            <div className={styles.hero}>
-                <CardMe />
-                <div className={styles.stars}></div>
-                <div className={styles.cactus}></div>
+        <>
+            {loading && <Preload />}
+            <div className={styles.home}>
+                <Helmet><title>Fernando Panduro</title></Helmet>
+                <Banner />
+                <div className={styles.hero}>
+                    <CardMe />
+                    <div className={styles.stars}></div>
+                    <div className={styles.cactus}></div>
+                </div>
+                <CardsSection heading='Blog' link='/blogs'/>
+                <Portfolio link='/portfolio'/>
+                <CardsSectionYT heading='Youtube' />
             </div>
-            <CardsSection heading='Blog' link='/blogs'/>
-            <Portfolio link='/portfolio'/>
-            <CardsSectionYT heading='Youtube' />
-        </div>
-        ) : <Preload />
+        </>
     )
 }
