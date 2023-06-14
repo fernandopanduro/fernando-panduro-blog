@@ -17,7 +17,7 @@ function CardPortfolio({imgAvif, imgJpg, imgWebp, title, link, type, technology}
               <h3 className={styles.title}>{title}</h3>
               <p className='text-secondary'>{type}</p>
               <span className={styles.technologys}>
-                {technologys.map(element => <span className={styles.technology}>{element}</span>)}
+                {technologys.map((element, index) => <span key={index} className={styles.technology}>{element}</span>)}
               </span>
               <Bar />
             </div>

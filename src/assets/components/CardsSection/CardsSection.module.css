@@ -15,3 +15,9 @@
 .link {
     width: 100%;
 }
+
+.gridBlog {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18.75rem, 1fr));
+    gap: var(--Margin-S);
+}

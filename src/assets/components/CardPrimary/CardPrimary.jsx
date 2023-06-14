@@ -10,6 +10,9 @@ import perfilAvif from '../../pictures/img/perfil.avif';
 import perfilWebp from '../../pictures/img/perfil.webp';
 
 function CardPrimary({posted, read, description, title, imgAvif, imgWebp, imgJpg}) {
+  
+  const newDescription = description.slice(0, 200)
+
   return (
     <div className={`${styles.cardPrimary} rounded`}>
       <Fade bottom>
@@ -22,29 +25,37 @@ function CardPrimary({posted, read, description, title, imgAvif, imgWebp, imgJpg
           </picture>
         </div>
 
+        <div className={styles.cardContent}>
+          <div>
+            <h4>{title}</h4>
+
+            <div className={styles.descriptionContainer}>
+              <div className={styles.gradient}></div>
+              <p className={`text-secondary`}>{newDescription}. . .</p>
+            </div>
+            <p className={`text-secondary mb-3`}>Leer mas...</p>
+          </div>
 
 
-        <h4>{title}</h4>
+          <div>
 
-        <p className={`text-secondary`}>{description}</p>
+            <div className={`${styles.details} flex`}>
+              <picture>
+                <source srcSet={perfilAvif} type='image/avif'/>
+                <source srcSet={perfilWebp} type='image/webp'/>
+                <img className={`${styles.imgProfile} rounded-4`} loading='lazy' width='200' height='300' src={perfil} alt='Foto de Perfil de Fernando' />
+              </picture>
 
+              <div className={`${styles.detailsDescription} flex`}>
+                <span className='text-uppercase'>Fernando Panduro <MdVerified color='#499be2' /></span>
+                <span className={`text-uppercase text-secondary`}>{posted} - {read}</span>
+              </div>
+            </div>
 
-        <div className={`${styles.details} flex`}>
-
-          <picture>
-            <source srcSet={perfilAvif} type='image/avif'/>
-            <source srcSet={perfilWebp} type='image/webp'/>
-            <img className={`${styles.imgProfile} rounded-4`} loading='lazy' width='200' height='300' src={perfil} alt='Foto de Perfil de Fernando' />
-          </picture>
-
-          <div className={`${styles.detailsDescription} flex`}>
-            <span className='text-uppercase'>Fernando Panduro <MdVerified color='#499be2' /></span>
-            <span className={`text-uppercase text-secondary`}>{posted} - {read}</span>
+            <Bar />
           </div>
 
         </div>
-
-        <Bar />
         
       </Fade>
     </div>

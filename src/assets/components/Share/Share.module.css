@@ -26,7 +26,7 @@
 .modal {
     position: absolute;
     height: max-content;
-    background-color: var(--Color-ligth);
+    background-color: #edeff1;
     max-width: 90%;
     width: 520px;
     padding: var(--Margin-M);

@@ -18,7 +18,6 @@ import Share from '../../components/Share/Share'
 
 function SuperarAdicciones() {
   window.scrollTo(0,0)
-  console.log(window.location.pathname)
   return (
     <div className={`${styles.containerBlogs} flex container`}>
 

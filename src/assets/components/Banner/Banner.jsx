@@ -9,7 +9,7 @@ function Banner() {
       <Fade bottom>
         <div className={`${styles.banner} flex container animate__fadeInUp`}>
             <h2 className={`${styles.title} text-secondary-emphasis`}>Fernando Panduro</h2>
-            <h3 className={`${styles.subtitle}`}>Ingeniero de software, creador de contenido, escritor ocasional</h3>
+            <h3 className={`${styles.subtitle}`}>Ingeniero de software, escritor, creador de contenido ocasional</h3>
         </div>
       </Fade>
     </div>
