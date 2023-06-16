@@ -42,8 +42,8 @@ export function Home() {
                     <div className={styles.stars}></div>
                     <div className={styles.cactus}></div>
                 </div>
+                <Portfolio link='/portfolio'/>  
                 <CardsSection heading='Blog' link='/blogs'/>
-                <Portfolio link='/portfolio'/>
                 {/* <CardsSectionYT heading='Youtube' /> */}
             </div>
         </>
