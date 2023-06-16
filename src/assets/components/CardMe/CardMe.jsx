@@ -28,7 +28,7 @@ function CardMe() {
           <Link className={styles.btn} to='/fernando-panduro'>🤘 Conoceme</Link>
           <a className={styles.btn} href="https://www.linkedin.com/in/fernando-panduro/" title="Linkedin de Fernando Panduro" target="_blank" rel="noopener noreferrer"><FaLinkedinIn size={25} color='white'/><span>Linkedin</span></a>
           <a className={styles.btn} href="http://instagram.com/fernandpha" title="Instagram de Fernando Panduro" target="_blank" rel="noopener noreferrer"><AiOutlineInstagram size={27} color='white'/><span>Instagram</span></a>
-          <a className={styles.btn} href="https://www.youtube.com/@fernandopanduro/" title="Youtube de Fernando Panduro" target="_blank" rel="noopener noreferrer"><AiFillYoutube size={27} color='white'/><span>Youtube</span></a>
+          {/* <a className={styles.btn} href="https://www.youtube.com/@fernandopanduro/" title="Youtube de Fernando Panduro" target="_blank" rel="noopener noreferrer"><AiFillYoutube size={27} color='white'/><span>Youtube</span></a> */}
           <a className={styles.btn} href="https://github.com/fernandopanduro" title="Github de Fernando Panduro" target="_blank" rel="noopener noreferrer"><AiFillGithub size={27} color='white'/><span>Github</span></a>
         </div>
       </div>

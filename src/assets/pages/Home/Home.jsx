@@ -44,7 +44,7 @@ export function Home() {
                 </div>
                 <CardsSection heading='Blog' link='/blogs'/>
                 <Portfolio link='/portfolio'/>
-                <CardsSectionYT heading='Youtube' />
+                {/* <CardsSectionYT heading='Youtube' /> */}
             </div>
         </>
     )
