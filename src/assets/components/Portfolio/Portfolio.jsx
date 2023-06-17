@@ -17,6 +17,10 @@ import kiaJpg  from '../../pictures/img/kia.jpg';
 import kiaAvif  from '../../pictures/img/kia.avif';
 import kiaWebp  from '../../pictures/img/kia.webp';
 
+import mazyJpg  from '../../pictures/img/mazy.jpg';
+import mazyAvif  from '../../pictures/img/mazy.avif';
+import mazyWebp  from '../../pictures/img/mazy.webp';
+
 
 function Portfolio({link}) {
   return (
@@ -25,9 +29,10 @@ function Portfolio({link}) {
         <div className={`${styles.portfolio} container`}>
 
             <Fade bottom>
-              <CardPortfolio technology='REACTJS CSSModules GIT' link='https://www.mgmotor.com.mx/' type='Compañia de automoviles' title='Mg Motor' imgJpg={mgJpg} imgWebp={mgWebp} imgAvif={mgAvif} />
+              <CardPortfolio technology='HTML CSS JS Bootstrap JQuery Git' link='https://www.mgmotor.com.mx/' type='Compañia de automoviles' title='Mg Motor' imgJpg={mgJpg} imgWebp={mgWebp} imgAvif={mgAvif} />
               <CardPortfolio technology='REACTJS TAILWIND GIT' link='https://eorum.netlify.app/' type='Ecommerce de ropa japonessa' title='Eorum' imgJpg={eorumJpg} imgWebp={eorumWebp} imgAvif={eorumAvif} />
-              <CardPortfolio technology='REACTJS CSSModules GIT' link='https://www.apartatukia.com/' type='Fabricante de vehículos' title='Kia México' imgJpg={kiaJpg} imgWebp={kiaWebp} imgAvif={kiaAvif} />
+              <CardPortfolio technology='REACTJS CSSModules GIT' link='https://mazy.netlify.app/' type='Web de vaporizador de comida' title='Mazy' imgJpg={mazyJpg} imgWebp={mazyWebp} imgAvif={mazyAvif} />
+              {/* <CardPortfolio technology='REACTJS CSSModules GIT' link='https://www.apartatukia.com/' type='Fabricante de vehículos' title='Kia México' imgJpg={kiaJpg} imgWebp={kiaWebp} imgAvif={kiaAvif} /> */}
             </Fade>
 
         </div>
