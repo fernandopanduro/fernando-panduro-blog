@@ -7,7 +7,7 @@ import styles from './Home.module.css';
 import CardMe from '../../components/CardMe/CardMe';
 import { useState } from 'react';
 
-const Preload = () => {
+/* const Preload = () => {
     return (
         <div className={styles.preload}>
             <div className={styles.threeBody}>
@@ -18,22 +18,22 @@ const Preload = () => {
         </div>
         
     )
-}
+} */
 
 export function Home() {
 
-    const [ loading, setLoading ] = useState(true);
+    // const [ loading, setLoading ] = useState(true);
 
-    if (loading) {
-        setTimeout(() => {
-            setLoading(false);
-        }, 1000)
-    }
+    // if (loading) {
+    //     setTimeout(() => {
+    //         setLoading(false);
+    //     }, 1000)
+    // }
 
   window.scrollTo(0,0)
     return (
         <>
-            {loading && <Preload />}
+            {/* {loading && <Preload />} */}
             <div className={styles.home}>
                 <Helmet><title>Fernando Panduro</title></Helmet>
                 <Banner />

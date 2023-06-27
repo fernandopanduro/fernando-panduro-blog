@@ -61,8 +61,8 @@ function PortfolioPage() {
       </Helmet>
       <h2 className={`${styles.title}`}>Portafolio</h2>
       <div className={`${styles.portfolioPage} container`}>
-          <CardPortfolio technology='REACTJS CSSModules GIT' link='https://www.mgmotor.com.mx/' type='Compañia de automoviles' title='Mg Motor' imgJpg={mgJpg} imgWebp={mgWebp} imgAvif={mgAvif} />
-          <CardPortfolio technology='REACTJS CSSModules GIT' link='https://www.apartatukia.com/' type='Fabricante de vehículos' title='Kia México' imgJpg={kiaJpg} imgWebp={kiaWebp} imgAvif={kiaAvif} />
+          <CardPortfolio technology='HTML CSS JS Bootstrap JQuery Git' link='https://www.mgmotor.com.mx/' type='Compañia de automoviles' title='Mg Motor' imgJpg={mgJpg} imgWebp={mgWebp} imgAvif={mgAvif} />
+          {/* <CardPortfolio technology='REACTJS CSSModules GIT' link='https://www.apartatukia.com/' type='Fabricante de vehículos' title='Kia México' imgJpg={kiaJpg} imgWebp={kiaWebp} imgAvif={kiaAvif} /> */}
           <CardPortfolio technology='REACTJS CSSModules GIT' link='https://vendettamx.netlify.app/' type='Tienda de ropa para mujeres' title='Vendetta' imgJpg={vendettaJpg} imgWebp={vendettaWebp} imgAvif={vendettaAvif} />
           <CardPortfolio technology='REACTJS TAILWIND GIT' link='https://eorum.netlify.app/' type='Ecommerce de ropa japonessa' title='Eorum' imgJpg={eorumJpg} imgWebp={eorumWebp} imgAvif={eorumAvif} />
           <CardPortfolio technology='REACTJS CSSModules GIT' link='https://mazy.netlify.app/' type='Web de vaporizador de comida' title='Mazy' imgJpg={mazyJpg} imgWebp={mazyWebp} imgAvif={mazyAvif} />
