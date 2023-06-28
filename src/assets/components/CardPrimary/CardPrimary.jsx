@@ -17,12 +17,9 @@ function CardPrimary({posted, read, description, title, imgAvif, imgWebp, imgJpg
     <div className={`${styles.cardPrimary} rounded`}>
       <Fade bottom>
 
-        <div className={styles.imagen}>
-          <picture className={`${styles.picture}`}>
-            <source srcSet={imgAvif} type='image/avif'/>
-            <source srcSet={imgWebp} type='image/webp'/>
-            <img className={`${styles.img} rounded-1`} loading='lazy' width='200' height='300' src={imgJpg} alt={title} />
-          </picture>
+        <div className={styles.double}>
+          <div className={`${styles.double__img} ${styles.img1}`} style={{backgroundImage: `url(${imgJpg})`}}></div>
+          <div className={`${styles.double__img} ${styles.img2}`} style={{backgroundImage: `url(${imgJpg})`}}></div>
         </div>
 
         <div className={styles.cardContent}>
@@ -57,6 +54,7 @@ function CardPrimary({posted, read, description, title, imgAvif, imgWebp, imgJpg
         </div>
         
       </Fade>
+
     </div>
   )
 }
