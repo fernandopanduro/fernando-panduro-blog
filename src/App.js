@@ -1,4 +1,3 @@
-import './App.module.css';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
 import { Home } from './assets/pages/Home/Home'
@@ -28,37 +27,37 @@ function App() {
   return (
     <Router>
 
-      <Header />
+      {/* <Header /> */}
 
       <main>
         <Routes>
 
-          <Route path="/" element={<Home />} />
-          <Route path='/blogs' element={<Blogs />} />
-          <Route path='/blogs/chatgpt' element={<Chatgpt />} />
-          <Route path='/blogs/realidadvirtual' element={<RealidadVirtual />} />
-          <Route path='/blogs/el-secreto-de-la-felicidad' element={<ComoSerFeliz />} />
-          <Route path='/blogs/learnprompting/introduccion' element={<LearnPrompting />} />
-          <Route path='/blogs/learnprompting/basics' element={<LearnPromptingBasics />} />
-          <Route path='/blogs/learnprompting/intermedio' element={<LearnPromptingIntermedie />} />
+          <Route path="/" element={<><Header /> <Home /> <Footer /></>} />
+          <Route path='/blogs' element={<><Header /> <Blogs /> <Footer /></>} />
+          <Route path='/blogs/chatgpt' element={<><Header /><Chatgpt /><Footer /></>} />
+          <Route path='/blogs/realidadvirtual' element={<><Header /><RealidadVirtual /><Footer /></>} />
+          <Route path='/blogs/el-secreto-de-la-felicidad' element={<><Header /><ComoSerFeliz /><Footer /></>} />
+          <Route path='/blogs/learnprompting/introduccion' element={<><Header /><LearnPrompting /><Footer /></>} />
+          <Route path='/blogs/learnprompting/basics' element={<><Header /><LearnPromptingBasics /><Footer /></>} />
+          <Route path='/blogs/learnprompting/intermedio' element={<><Header /><LearnPromptingIntermedie /><Footer /></>} />
           <Route path='/blogs/learnprompting/music' element={<LearnPromptingMusic />} />
-          <Route path='/blogs/learnprompting/detecciontext' element={<LearnPromptingDeteccionText />} />
-          <Route path='/blogs/learnprompting/createimages' element={<LearnPromptingCreateImages />} />
-          <Route path='/blogs/superaradicciones' element={<SuperarAdicciones />} />
-          <Route path='/privacidad' element={<Privacidad />} />
-          <Route path='/reembolso' element={<Reembolso />} />
-          <Route path='/servicio' element={<Servicio />} />
-          <Route path='/fernando-panduro' element={<Conoceme />} />
+          <Route path='/blogs/learnprompting/detecciontext' element={<><Header /><LearnPromptingDeteccionText /><Footer /></>} />
+          <Route path='/blogs/learnprompting/createimages' element={<><Header /><LearnPromptingCreateImages /><Footer /></>} />
+          <Route path='/blogs/superaradicciones' element={<><Header /><SuperarAdicciones /><Footer /></>} />
+          <Route path='/privacidad' element={<><Header /><Privacidad /><Footer /></>} />
+          <Route path='/reembolso' element={<><Header /><Reembolso /><Footer /></>} />
+          <Route path='/servicio' element={<><Header /><Servicio /><Footer /></>} />
+          <Route path='/fernando-panduro' element={<><Header /><Conoceme /><Footer /></>} />
           <Route path='/portfolio' element={<PortfolioPage />} />
-          <Route path='/tienda' element={<Tienda />} />
-          <Route path='/product/:id' element={<ProductDetails />} />
+          <Route path='/tienda' element={<><Header /><Tienda /><Footer /></>} />
+          <Route path='/product/:id' element={<><Header /><ProductDetails /><Footer /></>} />
           
           <Route path='*' element={<Navigate replace to='/' />} />
 
         </Routes>
       </main>
 
-      <Footer />
+      {/* <Footer /> */}
 
     </Router>
   );
